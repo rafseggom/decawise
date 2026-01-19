@@ -1,0 +1,40 @@
+/* Shape definitions for player identification */
+
+/* Triangle */
+.shape.triangle {
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  background-color: #6366f1;
+  border: none !important;
+}
+
+/* Circle */
+.shape.circle {
+  border-radius: 50%;
+  background-color: #8b5cf6;
+  border: none !important;
+}
+
+/* Square */
+.shape.square {
+  border-radius: 4px;
+  background-color: #ec4899;
+  border: none !important;
+}
+
+/* Star */
+.shape.star {
+  clip-path: polygon(
+    50% 0%,
+    61% 35%,
+    98% 35%,
+    68% 57%,
+    79% 91%,
+    50% 70%,
+    21% 91%,
+    32% 57%,
+    2% 35%,
+    39% 35%
+  );
+  background-color: #f59e0b;
+  border: none !important;
+}

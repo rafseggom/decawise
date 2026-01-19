@@ -1,0 +1,308 @@
+.main-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  padding: 20px;
+}
+
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  padding: 40px 30px;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-lg);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+.menu-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.menu-logo {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  filter: drop-shadow(0 2px 8px rgba(59, 130, 246, 0.4));
+}
+
+.menu-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: white;
+  margin: 0;
+  letter-spacing: 2px;
+  text-shadow: 0 2px 10px rgba(59, 130, 246, 0.5);
+}
+
+.menu-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+}
+
+.menu-button {
+  padding: 15px 30px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: var(--border-radius);
+  transition: var(--transition);
+  width: 100%;
+}
+
+.menu-button.primary {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.menu-button.primary:hover:not(:disabled) {
+  background-color: #2563eb;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 12px rgba(59, 130, 246, 0.4);
+}
+
+.menu-button.secondary {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.menu-button.secondary:hover:not(:disabled) {
+  border-color: var(--primary-color);
+  color: white;
+  background-color: rgba(59, 130, 246, 0.2);
+}
+
+.menu-button.info {
+  background-color: rgba(16, 185, 129, 0.1);
+  color: #10b981;
+  border: 2px solid rgba(16, 185, 129, 0.3);
+}
+
+.menu-button.info:hover:not(:disabled) {
+  background-color: rgba(16, 185, 129, 0.2);
+  border-color: #10b981;
+  transform: translateY(-2px);
+}
+
+.menu-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.version {
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+}
+
+.github-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.github-link {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: var(--transition);
+  padding: 5px 10px;
+  border-radius: 6px;
+}
+
+.github-link:hover {
+  color: var(--primary-color);
+  background-color: rgba(59, 130, 246, 0.1);
+}
+
+.github-link svg {
+  flex-shrink: 0;
+}
+
+/* Modal Styles */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 20px;
+  backdrop-filter: blur(4px);
+}
+
+.modal-content {
+  background: linear-gradient(135deg, #1e293b, #0f172a);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  border-radius: var(--border-radius);
+  padding: 30px;
+  max-width: 600px;
+  width: 100%;
+  max-height: 80vh;
+  overflow-y: auto;
+  position: relative;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+}
+
+.modal-content h2 {
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+  text-shadow: 0 2px 10px rgba(59, 130, 246, 0.5);
+}
+
+.modal-close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: var(--transition);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-close:hover {
+  background: rgba(239, 68, 68, 0.3);
+  transform: rotate(90deg);
+}
+
+.modal-body {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.modal-body section {
+  margin-bottom: 25px;
+}
+
+.modal-body h3 {
+  color: var(--primary-color);
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.modal-body p {
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.modal-body ol, .modal-body ul {
+  margin-left: 20px;
+  line-height: 1.8;
+}
+
+.modal-body li {
+  margin-bottom: 8px;
+}
+
+.modal-body strong {
+  color: white;
+  font-weight: 600;
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+  .menu-container {
+    padding: 30px 20px;
+    max-width: 100%;
+  }
+
+  .menu-title {
+    font-size: 2.5rem;
+  }
+
+  .menu-logo {
+    width: 40px;
+    height: 40px;
+  }
+
+  .modal-content {
+    padding: 25px;
+  }
+
+  .modal-content h2 {
+    font-size: 1.7rem;
+  }
+}
+
+/* Móviles */
+@media (max-width: 480px) {
+  .main-menu {
+    padding: 15px;
+  }
+
+  .menu-container {
+    padding: 20px 15px;
+    gap: 25px;
+  }
+
+  .menu-title {
+    font-size: 2rem;
+  }
+
+  .menu-logo {
+    width: 35px;
+    height: 35px;
+  }
+
+  .menu-header {
+    gap: 10px;
+  }
+
+  .github-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .modal-content {
+    padding: 20px;
+    max-height: 90vh;
+  }
+
+  .modal-content h2 {
+    font-size: 1.5rem;
+  }
+
+  .modal-body h3 {
+    font-size: 1.1rem;
+  }
+
+  .menu-button {
+    padding: 12px 20px;
+    font-size: 1rem;
+  }
+}

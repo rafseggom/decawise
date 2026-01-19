@@ -1,0 +1,560 @@
+.question-display {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+  padding: 20px;
+  gap: 20px;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+}
+
+/* Indicador de turno */
+.turn-indicator {
+  background: rgba(255, 255, 255, 0.05);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(10px);
+}
+
+.turn-player {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: white;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.turn-player .shape-icon {
+  width: 35px;
+  height: 35px;
+}
+
+/* Contenedor principal del juego */
+.game-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Filas de opciones */
+.options-row {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 15px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+/* Tarjetas de opción */
+.option-card {
+  background: rgba(255, 255, 255, 0.95);
+  border: 3px solid #cbd5e1;
+  border-radius: 12px;
+  padding: 12px 10px;
+  min-height: 85px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  position: relative;
+}
+
+.option-card.hidden {
+  background: linear-gradient(135deg, #3b82f6, #1e40af);
+  border-color: #2563eb;
+}
+
+.option-card.hidden .option-content {
+  color: white;
+}
+
+.option-card.hidden:hover:not(:disabled) {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(59, 130, 246, 0.4);
+}
+
+.option-card.revealed {
+  background: white;
+  border-color: #10b981;
+  cursor: default;
+}
+
+.option-card:disabled {
+  cursor: default;
+}
+
+.option-number {
+  background: #0f172a;
+  color: white;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.9rem;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.option-card.hidden .option-number {
+  background: rgba(255, 255, 255, 0.9);
+  color: #1e40af;
+}
+
+.option-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  text-align: center;
+  width: 100%;
+}
+
+.option-text {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: white;
+  line-height: 1.3;
+}
+
+.revealed-content {
+  flex-direction: column;
+  gap: 5px;
+}
+
+.option-label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #64748b;
+  line-height: 1.2;
+}
+
+.option-divider {
+  font-size: 1.2rem;
+  color: #3b82f6;
+  font-weight: 700;
+}
+
+.option-answer {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #10b981;
+}
+
+/* Pregunta central */
+.question-center {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 20px;
+  padding: 30px 40px;
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+}
+
+.question-tema {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #64748b;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.question-text-center {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 10px;
+  line-height: 1.4;
+}
+
+.question-type {
+  font-size: 0.75rem;
+  color: #94a3b8;
+  font-style: italic;
+}
+
+/* Panel de jugadores */
+.players-panel {
+  background: rgba(255, 255, 255, 0.05);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  padding: 15px 20px;
+  backdrop-filter: blur(10px);
+}
+
+.players-panel h3 {
+  color: white;
+  margin: 0 0 15px 0;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.players-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 12px;
+}
+
+.player-card {
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  position: relative;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.player-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
+}
+
+.player-card.current {
+  background: rgba(59, 130, 246, 0.2);
+  border-color: #3b82f6;
+  box-shadow: 0 0 20px rgba(59, 130, 246, 0.4);
+}
+
+.player-card.passed {
+  opacity: 0.6;
+  background: rgba(16, 185, 129, 0.1);
+  border-color: rgba(16, 185, 129, 0.3);
+}
+
+.player-card.eliminated {
+  background: rgba(239, 68, 68, 0.3) !important;
+  border-color: #ef4444 !important;
+  opacity: 1 !important;
+}
+
+.player-card.eliminated .player-shape {
+  opacity: 0.5;
+}
+
+.player-shape {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+}
+
+.player-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.player-name {
+  color: white;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.player-score {
+  color: #cbd5e1;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.player-status {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background: white;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.player-card.eliminated .player-status {
+  background: #ef4444;
+  color: white;
+}
+
+.player-card.passed .player-status {
+  background: #10b981;
+  color: white;
+}
+
+/* Info de ronda */
+.round-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  color: white;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+/* Responsive - Tablets */
+@media (max-width: 1024px) {
+  .options-row {
+    grid-template-columns: repeat(5, 1fr);
+    gap: 12px;
+  }
+
+  .option-card {
+    padding: 15px 10px;
+    min-height: 100px;
+  }
+
+  .question-center {
+    padding: 25px 30px;
+  }
+
+  .question-text-center {
+    font-size: 1.3rem;
+  }
+}
+
+/* Responsive - Tablets pequeñas */
+@media (max-width: 768px) {
+  .question-display {
+    padding: 15px;
+    gap: 15px;
+  }
+
+  .turn-indicator {
+    flex-direction: column;
+    gap: 12px;
+    text-align: center;
+  }
+
+  .turn-player {
+    justify-content: center;
+  }
+
+  .options-row {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+
+  .option-card {
+    padding: 12px 8px;
+    min-height: 90px;
+  }
+
+  .option-text {
+    font-size: 0.85rem;
+  }
+
+  .option-hidden {
+    font-size: 2rem;
+  }
+
+  .question-center {
+    padding: 20px 25px;
+  }
+
+  .question-text-center {
+    font-size: 1.2rem;
+  }
+
+  .players-grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+  }
+}
+
+/* Responsive - Móviles */
+@media (max-width: 480px) {
+  .question-display {
+    padding: 10px;
+    gap: 10px;
+  }
+
+  .turn-player {
+    font-size: 0.9rem;
+  }
+
+  .turn-player .shape-icon {
+    width: 28px;
+    height: 28px;
+  }
+
+  .pass-btn,
+  .eliminate-btn {
+    padding: 6px 12px;
+    font-size: 0.8rem;
+  }
+
+  .options-row {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6px;
+  }
+
+  .option-card {
+    padding: 8px 5px;
+    min-height: 70px;
+  }
+
+  .option-number {
+    width: 26px;
+    height: 26px;
+    font-size: 0.75rem;
+    top: 6px;
+    left: 6px;
+  }
+
+  .option-text {
+    font-size: 0.85rem;
+  }
+
+  .option-label {
+    font-size: 0.75rem;
+  }
+
+  .option-answer {
+    font-size: 0.95rem;
+  }
+
+  .option-hidden {
+    font-size: 1.8rem;
+  }
+
+  .question-center {
+    padding: 15px 20px;
+  }
+
+  .question-text-center {
+    font-size: 1rem;
+  }
+
+  .question-tema {
+    font-size: 0.75rem;
+  }
+
+  .question-type {
+    font-size: 0.7rem;
+  }
+
+  .players-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .player-card {
+    padding: 10px;
+  }
+
+  .player-name {
+    font-size: 0.85rem;
+  }
+
+  .player-score {
+    font-size: 0.75rem;
+  }
+}
+
+/* Móviles (480px y menores) */
+@media (max-width: 480px) {
+  .question-display {
+    padding: 10px;
+    gap: 12px;
+  }
+
+  .question-header {
+    padding: 15px;
+  }
+
+  .question-text {
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+  }
+
+  .question-meta {
+    font-size: 0.9rem;
+  }
+
+  .options-grid {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .option-button {
+    min-height: 60px;
+    font-size: 0.8rem;
+    padding: 12px 10px;
+  }
+
+  .players-status {
+    padding: 15px;
+  }
+
+  .players-status h3 {
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+  }
+
+  .players-list {
+    gap: 6px;
+  }
+
+  .player-badge {
+    min-width: 50px;
+    padding: 6px;
+    gap: 3px;
+  }
+
+  .player-badge .shape {
+    width: 30px;
+    height: 30px;
+  }
+
+  .player-badge .score {
+    font-size: 0.65rem;
+  }
+
+  .round-indicator {
+    font-size: 0.85rem;
+    padding: 8px 10px;
+  }
+}
+
+/* Ultra móviles (360px y menores) */
+@media (max-width: 360px) {
+  .question-text {
+    font-size: 1rem;
+  }
+
+  .option-button {
+    min-height: 50px;
+    font-size: 0.75rem;
+    padding: 10px 8px;
+  }
+
+  .player-badge {
+    min-width: 45px;
+  }
+
+  .player-badge .shape {
+    width: 28px;
+    height: 28px;
+  }
+}

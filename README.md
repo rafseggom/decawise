@@ -1,73 +1,57 @@
-# React + TypeScript + Vite
+# 🎮 DecaWise
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+DecaWise es una versión digital del popular juego de mesa **Smart10**, un juego de trivia competitivo para 2-4 jugadores. Cada pregunta presenta 10 opciones y los jugadores compiten por descubrir las respuestas correctas sin cometer errores.
 
-Currently, two official plugins are available:
+## 🎯 Cómo Jugar
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Objetivo del Juego
+Ser el primer jugador en alcanzar el número de puntos establecido al inicio de la partida.
 
-## React Compiler
+### Configuración Inicial
+1. **Selecciona el número de jugadores** (2-4 jugadores)
+2. Cada jugador elige su **forma geométrica** (triángulo, círculo, cuadrado o estrella)
+3. Establece el **número de puntos** necesarios para ganar (por defecto: 10 puntos)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Mecánica del Juego
 
-## Expanding the ESLint configuration
+#### Durante tu Turno
+1. Una pregunta aparece en el centro con **10 opciones** distribuidas en tarjetas
+2. **Di en voz alta** qué opción crees que es correcta
+3. **Haz clic en la tarjeta** para revelar si tu respuesta es correcta o incorrecta
+4. Si aciertas:
+   - Ganas **1 punto**
+   - Tu turno **continúa** y puedes seguir respondiendo
+5. Si fallas:
+   - **Haz clic sobre tu nombre** para eliminarte
+   - Pierdes todos los puntos acumulados en esta ronda
+   - El turno pasa al siguiente jugador
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+#### Plantarse (Pasar)
+- En cualquier momento durante tu turno, puedes hacer clic en tu nombre para **plantarte**
+- Al plantarte, conservas todos los puntos acumulados en esta ronda
+- El turno pasa al siguiente jugador
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+#### Reactivación
+- Si te has plantado o eliminado, puedes volver a entrar en la ronda si le has dado por error
+- Haz clic sobre tu nombre nuevamente para **reactivarte**
+- Continúas con los puntos que tenías antes de plantarte/eliminarte
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+### Fin de la Ronda
+- La ronda termina cuando se han revelado todas las tarjetas o todos los jugadores se han eliminado/plantado
+- Solo los jugadores que **no están eliminados** suman sus puntos de la ronda al total
+- Comienza una nueva ronda con una pregunta diferente
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### Ganar la Partida
+El primer jugador que alcanza o supera el número de puntos objetivo gana la partida.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🎲 Tipos de Preguntas
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- **VERDADERO/FALSO**: Determina si cada afirmación es correcta o incorrecta
+- **ORDENAR**: Ordena elementos según un criterio (del 1 al 10)
+- **NÚMERO**: Indica valores numéricos asociados a cada opción
+- **TEXTO**: Relaciona cada opción con su respuesta correspondiente
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+
+## 📄 Licencia
+
+Este proyecto está inspirado en el juego de mesa Smart10. Creado con fines educativos y de entretenimiento sin ánimo de lucro.
