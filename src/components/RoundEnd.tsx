@@ -10,7 +10,6 @@ interface RoundEndProps {
 
 const RoundEnd: React.FC<RoundEndProps> = ({ players, currentRound, onNextRound }) => {
   const sortedPlayers = [...players].sort((a, b) => b.score - a.score);
-  const leader = sortedPlayers[0];
 
   return (
     <div className="round-end">
