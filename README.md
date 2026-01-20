@@ -1,8 +1,8 @@
-# 🎮 DecaWise
+#  DecaWise
 
 DecaWise es una versión digital del popular juego de mesa **Smart10**, un juego de trivia competitivo para 2-4 jugadores. Cada pregunta presenta 10 opciones y los jugadores compiten por descubrir las respuestas correctas sin cometer errores.
 
-## 🎯 Cómo Jugar
+##  Cómo Jugar
 
 ### Objetivo del Juego
 Ser el primer jugador en alcanzar el número de puntos establecido al inicio de la partida.
@@ -44,7 +44,7 @@ Ser el primer jugador en alcanzar el número de puntos establecido al inicio de 
 ### Ganar la Partida
 El primer jugador que alcanza o supera el número de puntos objetivo gana la partida.
 
-## 🎲 Tipos de Preguntas
+##  Tipos de Preguntas
 
 - **VERDADERO/FALSO**: Determina si cada afirmación es correcta o incorrecta
 - **ORDENAR**: Ordena elementos según un criterio (del 1 al 10)
@@ -52,6 +52,6 @@ El primer jugador que alcanza o supera el número de puntos objetivo gana la par
 - **TEXTO**: Relaciona cada opción con su respuesta correspondiente
 
 
-## 📄 Licencia
+##  Licencia
 
 Este proyecto está inspirado en el juego de mesa Smart10. Creado con fines educativos y de entretenimiento sin ánimo de lucro.
