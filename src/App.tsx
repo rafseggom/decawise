@@ -284,6 +284,18 @@ function App() {
     saveGameState(newState);
   };
 
+  const handleSkipQuestion = () => {
+    // Generar nueva pregunta sin penalización
+    const newState = {
+      ...gameState,
+      currentQuestion: getRandomQuestion(questions),
+      answeredOptionsInRound: new Set<number>(),
+    };
+
+    setGameState(newState);
+    saveGameState(newState);
+  };
+
   const handleNextRound = () => {
     const updatedPlayers = gameState.players.map((p) => ({
       ...p,
@@ -368,6 +380,7 @@ function App() {
           onPlayerAction={handlePlayerAction}
           onPlayerEliminated={handlePlayerEliminated}
           onPlayerReactivated={handlePlayerReactivated}
+          onSkipQuestion={handleSkipQuestion}
           currentRound={gameState.currentRound}
           currentPlayerIndex={gameState.currentPlayerIndex}
           answeredOptions={gameState.answeredOptionsInRound}

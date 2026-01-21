@@ -5,16 +5,16 @@
     "pregunta": "¿Es un animal venenoso?",
     "tipo": "BOOLEAN",
     "opciones": [
-      {"texto": "Mamba Negra", "valor": true},
-      {"texto": "Libélula Emperador", "valor": false},
-      {"texto": "Rana de Flecha Dorada", "valor": true},
-      {"texto": "Pez Globo", "valor": true},
-      {"texto": "Araña Bananera", "valor": true},
-      {"texto": "Serpiente Verde", "valor": false},
-      {"texto": "Avispa Marina", "valor": true},
-      {"texto": "Pulpo de Anillos Azules", "valor": true},
-      {"texto": "Araña de Patas Largas", "valor": false},
-      {"texto": "Murciélago Vampiro", "valor": false}
+      {"texto": "Mamba Negra", "valor": "✅"},
+      {"texto": "Libélula Emperador", "valor": "❌"},
+      {"texto": "Rana de Flecha Dorada", "valor": "✅"},
+      {"texto": "Pez Globo", "valor": "✅"},
+      {"texto": "Araña Bananera", "valor": "✅"},
+      {"texto": "Serpiente Verde", "valor": "❌"},
+      {"texto": "Avispa Marina", "valor": "✅"},
+      {"texto": "Pulpo de Anillos Azules", "valor": "✅"},
+      {"texto": "Araña de Patas Largas", "valor": "❌"},
+      {"texto": "Murciélago Vampiro", "valor": "❌"}
     ]
   },
   {
@@ -59,16 +59,16 @@
     "pregunta": "¿Ganó esta película el Óscar a Mejor Película?",
     "tipo": "BOOLEAN",
     "opciones": [
-      {"texto": "Titanic", "valor": true},
-      {"texto": "Pulp Fiction", "valor": false},
-      {"texto": "Gladiator", "valor": true},
-      {"texto": "Inception", "valor": false},
-      {"texto": "Parasite", "valor": true},
-      {"texto": "The Matrix", "valor": false},
-      {"texto": "Moonlight", "valor": true},
-      {"texto": "Saving Private Ryan", "valor": false},
-      {"texto": "Green Book", "valor": true},
-      {"texto": "Avatar", "valor": false}
+      {"texto": "Titanic", "valor": "✅"},
+      {"texto": "Pulp Fiction", "valor": "❌"},
+      {"texto": "Gladiator", "valor": "✅"},
+      {"texto": "Inception", "valor": "❌"},
+      {"texto": "Parasite", "valor": "✅"},
+      {"texto": "The Matrix", "valor": "❌"},
+      {"texto": "Moonlight", "valor": "✅"},
+      {"texto": "Saving Private Ryan", "valor": "❌"},
+      {"texto": "Green Book", "valor": "✅"},
+      {"texto": "Avatar", "valor": "❌"}
     ]
   },
   {
@@ -113,16 +113,16 @@
     "pregunta": "¿Pertenece esta canción a los Beatles?",
     "tipo": "BOOLEAN",
     "opciones": [
-      {"texto": "Hey Jude", "valor": true},
-      {"texto": "Yesterday", "valor": true},
-      {"texto": "Satisfaccion", "valor": false},
-      {"texto": "Let it Be", "valor": true},
-      {"texto": "Bohemian Rhapsody", "valor": false},
-      {"texto": "Help!", "valor": true},
-      {"texto": "Imagine", "valor": false},
-      {"texto": "Yellow Submarine", "valor": true},
-      {"texto": "Roxanne", "valor": false},
-      {"texto": "Something", "valor": true}
+      {"texto": "Hey Jude", "valor": "✅"},
+      {"texto": "Yesterday", "valor": "✅"},
+      {"texto": "Satisfaccion", "valor": "❌"},
+      {"texto": "Let it Be", "valor": "✅"},
+      {"texto": "Bohemian Rhapsody", "valor": "❌"},
+      {"texto": "Help!", "valor": "✅"},
+      {"texto": "Imagine", "valor": "❌"},
+      {"texto": "Yellow Submarine", "valor": "✅"},
+      {"texto": "Roxanne", "valor": "❌"},
+      {"texto": "Something", "valor": "✅"}
     ]
   },
   {
@@ -167,16 +167,16 @@
     "pregunta": "¿Es esta una marca de coches?",
     "tipo": "BOOLEAN",
     "opciones": [
-      {"texto": "Tesla", "valor": true},
-      {"texto": "Rolex", "valor": false},
-      {"texto": "Mazda", "valor": true},
-      {"texto": "Nikon", "valor": false},
-      {"texto": "Subaru", "valor": true},
-      {"texto": "Lexus", "valor": true},
-      {"texto": "ZARA", "valor": false},
-      {"texto": "Dacia", "valor": true},
-      {"texto": "Oracle", "valor": false},
-      {"texto": "Volvo", "valor": true}
+      {"texto": "Tesla", "valor": "✅"},
+      {"texto": "Rolex", "valor": "❌"},
+      {"texto": "Mazda", "valor": "✅"},
+      {"texto": "Nikon", "valor": "❌"},
+      {"texto": "Subaru", "valor": "✅"},
+      {"texto": "Lexus", "valor": "✅"},
+      {"texto": "ZARA", "valor": "❌"},
+      {"texto": "Dacia", "valor": "✅"},
+      {"texto": "Oracle", "valor": "❌"},
+      {"texto": "Volvo", "valor": "✅"}
     ]
   },
   {
@@ -239,16 +239,16 @@
     "pregunta": "¿Es esta una provincia de Andalucía?",
     "tipo": "BOOLEAN",
     "opciones": [
-      {"texto": "Sevilla", "valor": true},
-      {"texto": "Badajoz", "valor": false},
-      {"texto": "Huelva", "valor": true},
-      {"texto": "Murcia", "valor": false},
-      {"texto": "Jaén", "valor": true},
-      {"texto": "Almería", "valor": true},
-      {"texto": "Albacete", "valor": false},
-      {"texto": "Cádiz", "valor": true},
-      {"texto": "Córdoba", "valor": true},
-      {"texto": "Ciudad Real", "valor": false}
+      {"texto": "Sevilla", "valor": "✅"},
+      {"texto": "Badajoz", "valor": "❌"},
+      {"texto": "Huelva", "valor": "✅"},
+      {"texto": "Murcia", "valor": "❌"},
+      {"texto": "Jaén", "valor": "✅"},
+      {"texto": "Almería", "valor": "✅"},
+      {"texto": "Albacete", "valor": "❌"},
+      {"texto": "Cádiz", "valor": "✅"},
+      {"texto": "Córdoba", "valor": "✅"},
+      {"texto": "Ciudad Real", "valor": "❌"}
     ]
   },
   {
@@ -257,16 +257,16 @@
     "pregunta": "¿Es este un hueso del cuerpo?",
     "tipo": "BOOLEAN",
     "opciones": [
-      {"texto": "Fémur", "valor": true},
-      {"texto": "Tíbia", "valor": true},
-      {"texto": "Bíceps", "valor": false},
-      {"texto": "Estribo", "valor": true},
-      {"texto": "Rótula", "valor": true},
-      {"texto": "Peroné", "valor": true},
-      {"texto": "Cúbito", "valor": true},
-      {"texto": "Falange", "valor": true},
-      {"texto": "Tendón Aquiles", "valor": false},
-      {"texto": "Cartílago", "valor": false}
+      {"texto": "Fémur", "valor": "✅"},
+      {"texto": "Tíbia", "valor": "✅"},
+      {"texto": "Bíceps", "valor": "❌"},
+      {"texto": "Estribo", "valor": "✅"},
+      {"texto": "Rótula", "valor": "✅"},
+      {"texto": "Peroné", "valor": "✅"},
+      {"texto": "Cúbito", "valor": "✅"},
+      {"texto": "Falange", "valor": "✅"},
+      {"texto": "Tendón Aquiles", "valor": "❌"},
+      {"texto": "Cartílago", "valor": "❌"}
     ]
   },
   {
@@ -347,16 +347,16 @@
     "pregunta": "¿Es este un color primario (según modelo RYB tradicional)?",
     "tipo": "BOOLEAN",
     "opciones": [
-      {"texto": "Rojo", "valor": true},
-      {"texto": "Verde", "valor": false},
-      {"texto": "Azul", "valor": true},
-      {"texto": "Amarillo", "valor": true},
-      {"texto": "Naranja", "valor": false},
-      {"texto": "Violeta", "valor": false},
-      {"texto": "Cian", "valor": false},
-      {"texto": "Magenta", "valor": false},
-      {"texto": "Blanco", "valor": false},
-      {"texto": "Negro", "valor": false}
+      {"texto": "Rojo", "valor": "✅"},
+      {"texto": "Verde", "valor": "❌"},
+      {"texto": "Azul", "valor": "✅"},
+      {"texto": "Amarillo", "valor": "✅"},
+      {"texto": "Naranja", "valor": "❌"},
+      {"texto": "Violeta", "valor": "❌"},
+      {"texto": "Cian", "valor": "❌"},
+      {"texto": "Magenta", "valor": "❌"},
+      {"texto": "Blanco", "valor": "❌"},
+      {"texto": "Negro", "valor": "❌"}
     ]
   },
   {
@@ -473,16 +473,16 @@
     "pregunta": "¿Es este autor español?",
     "tipo": "BOOLEAN",
     "opciones": [
-      {"texto": "Miguel de Cervantes", "valor": true},
-      {"texto": "Gabriel García Márquez", "valor": false},
-      {"texto": "Federico García Lorca", "valor": true},
-      {"texto": "Jorge Luis Borges", "valor": false},
-      {"texto": "Antonio Machado", "valor": true},
-      {"texto": "Pablo Neruda", "valor": false},
-      {"texto": "Benito Pérez Galdós", "valor": true},
-      {"texto": "Octavio Paz", "valor": false},
-      {"texto": "Camilo José Cela", "valor": true},
-      {"texto": "Isabel Allende", "valor": false}
+      {"texto": "Miguel de Cervantes", "valor": "✅"},
+      {"texto": "Gabriel García Márquez", "valor": "❌"},
+      {"texto": "Federico García Lorca", "valor": "✅"},
+      {"texto": "Jorge Luis Borges", "valor": "❌"},
+      {"texto": "Antonio Machado", "valor": "✅"},
+      {"texto": "Pablo Neruda", "valor": "❌"},
+      {"texto": "Benito Pérez Galdós", "valor": "✅"},
+      {"texto": "Octavio Paz", "valor": "❌"},
+      {"texto": "Camilo José Cela", "valor": "✅"},
+      {"texto": "Isabel Allende", "valor": "❌"}
     ]
   },
   {
@@ -509,16 +509,16 @@
     "pregunta": "¿Atraviesa la línea del Ecuador a este país?",
     "tipo": "BOOLEAN",
     "opciones": [
-      {"texto": "Brasil", "valor": true},
-      {"texto": "Tailandia", "valor": false},
-      {"texto": "Kenia", "valor": true},
-      {"texto": "Ecuador", "valor": true},
-      {"texto": "Gabón", "valor": true},
-      {"texto": "Perú", "valor": false},
-      {"texto": "Indonesia", "valor": true},
-      {"texto": "Colombia", "valor": true},
-      {"texto": "Australia", "valor": false},
-      {"texto": "Somalia", "valor": true}
+      {"texto": "Brasil", "valor": "✅"},
+      {"texto": "Tailandia", "valor": "❌"},
+      {"texto": "Kenia", "valor": "✅"},
+      {"texto": "Ecuador", "valor": "✅"},
+      {"texto": "Gabón", "valor": "✅"},
+      {"texto": "Perú", "valor": "❌"},
+      {"texto": "Indonesia", "valor": "✅"},
+      {"texto": "Colombia", "valor": "✅"},
+      {"texto": "Australia", "valor": "❌"},
+      {"texto": "Somalia", "valor": "✅"}
     ]
   },
   {
@@ -545,16 +545,16 @@
     "pregunta": "¿Es este elemento un Gas Noble?",
     "tipo": "BOOLEAN",
     "opciones": [
-      {"texto": "Helio", "valor": true},
-      {"texto": "Nitrógeno", "valor": false},
-      {"texto": "Neón", "valor": true},
-      {"texto": "Argón", "valor": true},
-      {"texto": "Oxígeno", "valor": false},
-      {"texto": "Kriptón", "valor": true},
-      {"texto": "Xenón", "valor": true},
-      {"texto": "Cloro", "valor": false},
-      {"texto": "Radón", "valor": true},
-      {"texto": "Hidrógeno", "valor": false}
+      {"texto": "Helio", "valor": "✅"},
+      {"texto": "Nitrógeno", "valor": "❌"},
+      {"texto": "Neón", "valor": "✅"},
+      {"texto": "Argón", "valor": "✅"},
+      {"texto": "Oxígeno", "valor": "❌"},
+      {"texto": "Kriptón", "valor": "✅"},
+      {"texto": "Xenón", "valor": "✅"},
+      {"texto": "Cloro", "valor": "❌"},
+      {"texto": "Radón", "valor": "✅"},
+      {"texto": "Hidrógeno", "valor": "❌"}
     ]
   },
   {
@@ -599,16 +599,16 @@
     "pregunta": "¿Ha ganado este piloto alguna vez el Mundial de F1?",
     "tipo": "BOOLEAN",
     "opciones": [
-      {"texto": "Fernando Alonso", "valor": true},
-      {"texto": "Rubens Barrichello", "valor": false},
-      {"texto": "Lewis Hamilton", "valor": true},
-      {"texto": "Max Verstappen", "valor": true},
-      {"texto": "Felipe Massa", "valor": false},
-      {"texto": "Sebastian Vettel", "valor": true},
-      {"texto": "Daniel Ricciardo", "valor": false},
-      {"texto": "Kimi Raikkonen", "valor": true},
-      {"texto": "Juan Pablo Montoya", "valor": false},
-      {"texto": "Jenson Button", "valor": true}
+      {"texto": "Fernando Alonso", "valor": "✅"},
+      {"texto": "Rubens Barrichello", "valor": "❌"},
+      {"texto": "Lewis Hamilton", "valor": "✅"},
+      {"texto": "Max Verstappen", "valor": "✅"},
+      {"texto": "Felipe Massa", "valor": "❌"},
+      {"texto": "Sebastian Vettel", "valor": "✅"},
+      {"texto": "Daniel Ricciardo", "valor": "❌"},
+      {"texto": "Kimi Raikkonen", "valor": "✅"},
+      {"texto": "Juan Pablo Montoya", "valor": "❌"},
+      {"texto": "Jenson Button", "valor": "✅"}
     ]
   },
   {
@@ -635,16 +635,16 @@
     "pregunta": "¿Es un ingrediente tradicional del Ratatouille francés?",
     "tipo": "BOOLEAN",
     "opciones": [
-      {"texto": "Berenjena", "valor": true},
-      {"texto": "Patata", "valor": false},
-      {"texto": "Calabacín", "valor": true},
-      {"texto": "Pimiento", "valor": true},
-      {"texto": "Zanahoria", "valor": false},
-      {"texto": "Tomate", "valor": true},
-      {"texto": "Cebolla", "valor": true},
-      {"texto": "Arroz", "valor": false},
-      {"texto": "Ajo", "valor": true},
-      {"texto": "Champiñones", "valor": false}
+      {"texto": "Berenjena", "valor": "✅"},
+      {"texto": "Patata", "valor": "❌"},
+      {"texto": "Calabacín", "valor": "✅"},
+      {"texto": "Pimiento", "valor": "✅"},
+      {"texto": "Zanahoria", "valor": "❌"},
+      {"texto": "Tomate", "valor": "✅"},
+      {"texto": "Cebolla", "valor": "✅"},
+      {"texto": "Arroz", "valor": "❌"},
+      {"texto": "Ajo", "valor": "✅"},
+      {"texto": "Champiñones", "valor": "❌"}
     ]
   },
   {
@@ -707,16 +707,16 @@
     "pregunta": "¿Tiene este planeta del Sistema Solar anillos?",
     "tipo": "BOOLEAN",
     "opciones": [
-      {"texto": "Saturno", "valor": true},
-      {"texto": "Marte", "valor": false},
-      {"texto": "Júpiter", "valor": true},
-      {"texto": "Urano", "valor": true},
-      {"texto": "Venus", "valor": false},
-      {"texto": "Neptuno", "valor": true},
-      {"texto": "Mercurio", "valor": false},
-      {"texto": "Tierra", "valor": false},
-      {"texto": "Urano", "valor": true},
-      {"texto": "Plutón", "valor": false}
+      {"texto": "Saturno", "valor": "✅"},
+      {"texto": "Marte", "valor": "❌"},
+      {"texto": "Júpiter", "valor": "✅"},
+      {"texto": "Urano", "valor": "✅"},
+      {"texto": "Venus", "valor": "❌"},
+      {"texto": "Neptuno", "valor": "✅"},
+      {"texto": "Mercurio", "valor": "❌"},
+      {"texto": "Tierra", "valor": "❌"},
+      {"texto": "Urano", "valor": "✅"},
+      {"texto": "Plutón", "valor": "❌"}
     ]
   },
   {
@@ -725,16 +725,16 @@
     "pregunta": "¿Ganó este actor el Óscar a Mejor Actor Principal?",
     "tipo": "BOOLEAN",
     "opciones": [
-      {"texto": "Leonardo DiCaprio", "valor": true},
-      {"texto": "Tom Cruise", "valor": false},
-      {"texto": "Joaquin Phoenix", "valor": true},
-      {"texto": "Johnny Depp", "valor": false},
-      {"texto": "Brad Pitt", "valor": false},
-      {"texto": "Anthony Hopkins", "valor": true},
-      {"texto": "Robert Downey Jr.", "valor": false},
-      {"texto": "Matthew McConaughey", "valor": true},
-      {"texto": "Will Smith", "valor": true},
-      {"texto": "Edward Norton", "valor": false}
+      {"texto": "Leonardo DiCaprio", "valor": "✅"},
+      {"texto": "Tom Cruise", "valor": "❌"},
+      {"texto": "Joaquin Phoenix", "valor": "✅"},
+      {"texto": "Johnny Depp", "valor": "❌"},
+      {"texto": "Brad Pitt", "valor": "❌"},
+      {"texto": "Anthony Hopkins", "valor": "✅"},
+      {"texto": "Robert Downey Jr.", "valor": "❌"},
+      {"texto": "Matthew McConaughey", "valor": "✅"},
+      {"texto": "Will Smith", "valor": "✅"},
+      {"texto": "Edward Norton", "valor": "❌"}
     ]
   },
   {
@@ -743,16 +743,16 @@
     "pregunta": "¿Es este un libro escrito por Stephen King?",
     "tipo": "BOOLEAN",
     "opciones": [
-      {"texto": "It", "valor": true},
-      {"texto": "Misery", "valor": true},
-      {"texto": "El Psicoanalista", "valor": false},
-      {"texto": "The Shining", "valor": true},
-      {"texto": "Carrie", "valor": true},
-      {"texto": "Jurassic Park", "valor": false},
-      {"texto": "Cujo", "valor": true},
-      {"texto": "La milla verde", "valor": true},
-      {"texto": "Drácula", "valor": false},
-      {"texto": "El código Da Vinci", "valor": false}
+      {"texto": "It", "valor": "✅"},
+      {"texto": "Misery", "valor": "✅"},
+      {"texto": "El Psicoanalista", "valor": "❌"},
+      {"texto": "The Shining", "valor": "✅"},
+      {"texto": "Carrie", "valor": "✅"},
+      {"texto": "Jurassic Park", "valor": "❌"},
+      {"texto": "Cujo", "valor": "✅"},
+      {"texto": "La milla verde", "valor": "✅"},
+      {"texto": "Drácula", "valor": "❌"},
+      {"texto": "El código Da Vinci", "valor": "❌"}
     ]
   },
   {
@@ -761,16 +761,16 @@
     "pregunta": "¿Perteneció este territorio al Imperio Romano en su apogeo?",
     "tipo": "BOOLEAN",
     "opciones": [
-      {"texto": "España", "valor": true},
-      {"texto": "Egipto", "valor": true},
-      {"texto": "Alemania (Norte)", "valor": false},
-      {"texto": "Gran Bretaña", "valor": true},
-      {"texto": "Rusia", "valor": false},
-      {"texto": "Turquía", "valor": true},
-      {"texto": "Francia", "valor": true},
-      {"texto": "Irlanda", "valor": false},
-      {"texto": "Marruecos", "valor": true},
-      {"texto": "Suecia", "valor": false}
+      {"texto": "España", "valor": "✅"},
+      {"texto": "Egipto", "valor": "✅"},
+      {"texto": "Alemania (Norte)", "valor": "❌"},
+      {"texto": "Gran Bretaña", "valor": "✅"},
+      {"texto": "Rusia", "valor": "❌"},
+      {"texto": "Turquía", "valor": "✅"},
+      {"texto": "Francia", "valor": "✅"},
+      {"texto": "Irlanda", "valor": "❌"},
+      {"texto": "Marruecos", "valor": "✅"},
+      {"texto": "Suecia", "valor": "❌"}
     ]
   },
   {
@@ -797,16 +797,16 @@
     "pregunta": "¿Es este animal un mamífero marino?",
     "tipo": "BOOLEAN",
     "opciones": [
-      {"texto": "Delfín", "valor": true},
-      {"texto": "Tiburón Blanco", "valor": false},
-      {"texto": "Ballena Azul", "valor": true},
-      {"texto": "Manatí", "valor": true},
-      {"texto": "Pingüino", "valor": false},
-      {"texto": "Foca", "valor": true},
-      {"texto": "Morsa", "valor": true},
-      {"texto": "Orca", "valor": true},
-      {"texto": "Pez Espada", "valor": false},
-      {"texto": "Nutria Marina", "valor": true}
+      {"texto": "Delfín", "valor": "✅"},
+      {"texto": "Tiburón Blanco", "valor": "❌"},
+      {"texto": "Ballena Azul", "valor": "✅"},
+      {"texto": "Manatí", "valor": "✅"},
+      {"texto": "Pingüino", "valor": "❌"},
+      {"texto": "Foca", "valor": "✅"},
+      {"texto": "Morsa", "valor": "✅"},
+      {"texto": "Orca", "valor": "✅"},
+      {"texto": "Pez Espada", "valor": "❌"},
+      {"texto": "Nutria Marina", "valor": "✅"}
     ]
   },
   {
@@ -833,16 +833,16 @@
     "pregunta": "¿Sucedió este evento en el Siglo XX?",
     "tipo": "BOOLEAN",
     "opciones": [
-      {"texto": "Llegada a la Luna", "valor": true},
-      {"texto": "Revolución Rusa", "valor": true},
-      {"texto": "Guerra Civil Española", "valor": true},
-      {"texto": "Invención de la Radio", "valor": false},
-      {"texto": "Caída del Muro de Berlín", "valor": true},
-      {"texto": "Batalla de Waterloo", "valor": false},
-      {"texto": "Hundimiento del Titanic", "valor": true},
-      {"texto": "Guerra de Vietnam", "valor": true},
-      {"texto": "Invención del Cine", "valor": false},
-      {"texto": "Asesinato de Kennedy", "valor": true}
+      {"texto": "Llegada a la Luna", "valor": "✅"},
+      {"texto": "Revolución Rusa", "valor": "✅"},
+      {"texto": "Guerra Civil Española", "valor": "✅"},
+      {"texto": "Invención de la Radio", "valor": "❌"},
+      {"texto": "Caída del Muro de Berlín", "valor": "✅"},
+      {"texto": "Batalla de Waterloo", "valor": "❌"},
+      {"texto": "Hundimiento del Titanic", "valor": "✅"},
+      {"texto": "Guerra de Vietnam", "valor": "✅"},
+      {"texto": "Invención del Cine", "valor": "❌"},
+      {"texto": "Asesinato de Kennedy", "valor": "✅"}
     ]
   },
   {
@@ -851,16 +851,16 @@
     "pregunta": "¿Es una de las 7 Maravillas del Mundo Antiguo?",
     "tipo": "BOOLEAN",
     "opciones": [
-      {"texto": "Gran Pirámide de Giza", "valor": true},
-      {"texto": "Coliseo Romano", "valor": false},
-      {"texto": "Faro de Alejandría", "valor": true},
-      {"texto": "Gran Muralla China", "valor": false},
-      {"texto": "Jardines Colgantes de Babilonia", "valor": true},
-      {"texto": "Estatua de Zeus", "valor": true},
-      {"texto": "Machu Picchu", "valor": false},
-      {"texto": "Templo de Artemisa", "valor": true},
-      {"texto": "Mausoleo de Halicarnaso", "valor": true},
-      {"texto": "Coloso de Rodas", "valor": true}
+      {"texto": "Gran Pirámide de Giza", "valor": "✅"},
+      {"texto": "Coliseo Romano", "valor": "❌"},
+      {"texto": "Faro de Alejandría", "valor": "✅"},
+      {"texto": "Gran Muralla China", "valor": "❌"},
+      {"texto": "Jardines Colgantes de Babilonia", "valor": "✅"},
+      {"texto": "Estatua de Zeus", "valor": "✅"},
+      {"texto": "Machu Picchu", "valor": "❌"},
+      {"texto": "Templo de Artemisa", "valor": "✅"},
+      {"texto": "Mausoleo de Halicarnaso", "valor": "✅"},
+      {"texto": "Coloso de Rodas", "valor": "✅"}
     ]
   },
   {
@@ -923,16 +923,16 @@
     "pregunta": "¿Ha ganado este país una Copa del Mundo de Fútbol?",
     "tipo": "BOOLEAN",
     "opciones": [
-      {"texto": "Uruguay", "valor": true},
-      {"texto": "Holanda", "valor": false},
-      {"texto": "Inglaterra", "valor": true},
-      {"texto": "Portugal", "valor": false},
-      {"texto": "Francia", "valor": true},
-      {"texto": "España", "valor": true},
-      {"texto": "Croacia", "valor": false},
-      {"texto": "Brasil", "valor": true},
-      {"texto": "Bélgica", "valor": false},
-      {"texto": "Argentina", "valor": true}
+      {"texto": "Uruguay", "valor": "✅"},
+      {"texto": "Holanda", "valor": "❌"},
+      {"texto": "Inglaterra", "valor": "✅"},
+      {"texto": "Portugal", "valor": "❌"},
+      {"texto": "Francia", "valor": "✅"},
+      {"texto": "España", "valor": "✅"},
+      {"texto": "Croacia", "valor": "❌"},
+      {"texto": "Brasil", "valor": "✅"},
+      {"texto": "Bélgica", "valor": "❌"},
+      {"texto": "Argentina", "valor": "✅"}
     ]
   },
   {
@@ -977,16 +977,16 @@
     "pregunta": "¿Es este personaje de Los Simpson?",
     "tipo": "BOOLEAN",
     "opciones": [
-      {"texto": "Homer Simpson", "valor": true},
-      {"texto": "Peter Griffin", "valor": false},
-      {"texto": "Bart Simpson", "valor": true},
-      {"texto": "Lisa Simpson", "valor": true},
-      {"texto": "Stan Smith", "valor": false},
-      {"texto": "Marge Simpson", "valor": true},
-      {"texto": "Ned Flanders", "valor": true},
-      {"texto": "Hank Hill", "valor": false},
-      {"texto": "Mr. Burns", "valor": true},
-      {"texto": "Bender", "valor": false}
+      {"texto": "Homer Simpson", "valor": "✅"},
+      {"texto": "Peter Griffin", "valor": "❌"},
+      {"texto": "Bart Simpson", "valor": "✅"},
+      {"texto": "Lisa Simpson", "valor": "✅"},
+      {"texto": "Stan Smith", "valor": "❌"},
+      {"texto": "Marge Simpson", "valor": "✅"},
+      {"texto": "Ned Flanders", "valor": "✅"},
+      {"texto": "Hank Hill", "valor": "❌"},
+      {"texto": "Mr. Burns", "valor": "✅"},
+      {"texto": "Bender", "valor": "❌"}
     ]
   },
   {
@@ -1031,16 +1031,16 @@
     "pregunta": "¿Escribió este autor en lengua española?",
     "tipo": "BOOLEAN",
     "opciones": [
-      {"texto": "Gabriel García Márquez", "valor": true},
-      {"texto": "Ernest Hemingway", "valor": false},
-      {"texto": "Jorge Luis Borges", "valor": true},
-      {"texto": "Miguel de Cervantes", "valor": true},
-      {"texto": "J.K. Rowling", "valor": false},
-      {"texto": "Isabel Allende", "valor": true},
-      {"texto": "Stephen King", "valor": false},
-      {"texto": "Pablo Neruda", "valor": true},
-      {"texto": "George Orwell", "valor": false},
-      {"texto": "Federico García Lorca", "valor": true}
+      {"texto": "Gabriel García Márquez", "valor": "✅"},
+      {"texto": "Ernest Hemingway", "valor": "❌"},
+      {"texto": "Jorge Luis Borges", "valor": "✅"},
+      {"texto": "Miguel de Cervantes", "valor": "✅"},
+      {"texto": "J.K. Rowling", "valor": "❌"},
+      {"texto": "Isabel Allende", "valor": "✅"},
+      {"texto": "Stephen King", "valor": "❌"},
+      {"texto": "Pablo Neruda", "valor": "✅"},
+      {"texto": "George Orwell", "valor": "❌"},
+      {"texto": "Federico García Lorca", "valor": "✅"}
     ]
   },
   {
@@ -1049,16 +1049,16 @@
     "pregunta": "¿Tiene esta bandera el color rojo?",
     "tipo": "BOOLEAN",
     "opciones": [
-      {"texto": "🇪🇸 España", "valor": true},
-      {"texto": "🇮🇹 Italia", "valor": true},
-      {"texto": "🇩🇪 Alemania", "valor": true},
-      {"texto": "🇫🇷 Francia", "valor": true},
-      {"texto": "🇧🇷 Brasil", "valor": false},
-      {"texto": "🇺🇸 Estados Unidos", "valor": true},
-      {"texto": "🇬🇷 Grecia", "valor": false},
-      {"texto": "🇨🇳 China", "valor": true},
-      {"texto": "🇸🇪 Suecia", "valor": false},
-      {"texto": "🇯🇵 Japón", "valor": true}
+      {"texto": "España", "valor": "🇪🇸 ✅"},
+      {"texto": "Italia", "valor": "🇮🇹 ✅"},
+      {"texto": "Alemania", "valor": "🇩🇪 ✅"},
+      {"texto": "Francia", "valor": "🇫🇷 ✅"},
+      {"texto": "Brasil", "valor": "🇧🇷 ❌"},
+      {"texto": "Estados Unidos", "valor": "🇺🇸 ✅"},
+      {"texto": "Grecia", "valor": "🇬🇷 ❌"},
+      {"texto": "China", "valor": "🇨🇳 ✅"},
+      {"texto": "Suecia", "valor": "🇸🇪 ❌"},
+      {"texto": "Japón", "valor": "🇯🇵 ✅"}
     ]
   },
   {
@@ -1085,16 +1085,16 @@
     "pregunta": "¿Es este animal un marsupial?",
     "tipo": "BOOLEAN",
     "opciones": [
-      {"texto": "Canguro", "valor": true},
-      {"texto": "Koala", "valor": true},
-      {"texto": "Mapache", "valor": false},
-      {"texto": "Demonio de Tasmania", "valor": true},
-      {"texto": "Zarigüeya", "valor": true},
-      {"texto": "Ardilla", "valor": false},
-      {"texto": "Wombat", "valor": true},
-      {"texto": "Oso Hormiguero", "valor": false},
-      {"texto": "Quokka", "valor": true},
-      {"texto": "Perezoso", "valor": false}
+      {"texto": "Canguro", "valor": "✅"},
+      {"texto": "Koala", "valor": "✅"},
+      {"texto": "Mapache", "valor": "❌"},
+      {"texto": "Demonio de Tasmania", "valor": "✅"},
+      {"texto": "Zarigüeya", "valor": "✅"},
+      {"texto": "Ardilla", "valor": "❌"},
+      {"texto": "Wombat", "valor": "✅"},
+      {"texto": "Oso Hormiguero", "valor": "❌"},
+      {"texto": "Quokka", "valor": "✅"},
+      {"texto": "Perezoso", "valor": "❌"}
     ]
   },
   {
@@ -1193,16 +1193,16 @@
     "pregunta": "¿Es este un personaje de Disney?",
     "tipo": "BOOLEAN",
     "opciones": [
-      {"texto": "Mickey Mouse", "valor": true},
-      {"texto": "Bugs Bunny", "valor": false},
-      {"texto": "Simba", "valor": true},
-      {"texto": "Shrek", "valor": false},
-      {"texto": "Elsa (Frozen)", "valor": true},
-      {"texto": "Bob Esponja", "valor": false},
-      {"texto": "Woody (Toy Story)", "valor": true},
-      {"texto": "Scooby-Doo", "valor": false},
-      {"texto": "Ariel (La Sirenita)", "valor": true},
-      {"texto": "Sonic", "valor": false}
+      {"texto": "Mickey Mouse", "valor": "✅"},
+      {"texto": "Bugs Bunny", "valor": "❌"},
+      {"texto": "Simba", "valor": "✅"},
+      {"texto": "Shrek", "valor": "❌"},
+      {"texto": "Elsa (Frozen)", "valor": "✅"},
+      {"texto": "Bob Esponja", "valor": "❌"},
+      {"texto": "Woody (Toy Story)", "valor": "✅"},
+      {"texto": "Scooby-Doo", "valor": "❌"},
+      {"texto": "Ariel (La Sirenita)", "valor": "✅"},
+      {"texto": "Sonic", "valor": "❌"}
     ]
   },
   {
@@ -1229,16 +1229,16 @@
     "pregunta": "¿Es este un planeta rocoso del Sistema Solar?",
     "tipo": "BOOLEAN",
     "opciones": [
-      {"texto": "Mercurio", "valor": true},
-      {"texto": "Venus", "valor": true},
-      {"texto": "Tierra", "valor": true},
-      {"texto": "Marte", "valor": true},
-      {"texto": "Júpiter", "valor": false},
-      {"texto": "Saturno", "valor": false},
-      {"texto": "Urano", "valor": false},
-      {"texto": "Neptuno", "valor": false},
-      {"texto": "Plutón", "valor": true},
-      {"texto": "Luna", "valor": true}
+      {"texto": "Mercurio", "valor": "✅"},
+      {"texto": "Venus", "valor": "✅"},
+      {"texto": "Tierra", "valor": "✅"},
+      {"texto": "Marte", "valor": "✅"},
+      {"texto": "Júpiter", "valor": "❌"},
+      {"texto": "Saturno", "valor": "❌"},
+      {"texto": "Urano", "valor": "❌"},
+      {"texto": "Neptuno", "valor": "❌"},
+      {"texto": "Plutón", "valor": "✅"},
+      {"texto": "Luna", "valor": "✅"}
     ]
   },
   {
@@ -1280,19 +1280,19 @@
   {
     "id": 64,
     "tema": "Videojuegos",
-    "pregunta": "¿Es este un juego exclusivo de PlayStation?",
+    "pregunta": "¿Fue este un juego exclusivo de PlayStation?",
     "tipo": "BOOLEAN",
     "opciones": [
-      {"texto": "The Last of Us", "valor": true},
-      {"texto": "Halo", "valor": false},
-      {"texto": "God of War", "valor": true},
-      {"texto": "Forza Horizon", "valor": false},
-      {"texto": "Uncharted", "valor": true},
-      {"texto": "Zelda", "valor": false},
-      {"texto": "Horizon Zero Dawn", "valor": true},
-      {"texto": "Super Mario", "valor": false},
-      {"texto": "Spider-Man (2018)", "valor": true},
-      {"texto": "Minecraft", "valor": false}
+      {"texto": "The Last of Us", "valor": "✅"},
+      {"texto": "Halo", "valor": "❌"},
+      {"texto": "God of War", "valor": "✅"},
+      {"texto": "Forza Horizon", "valor": "❌"},
+      {"texto": "Uncharted", "valor": "✅"},
+      {"texto": "Zelda", "valor": "❌"},
+      {"texto": "Horizon Zero Dawn", "valor": "✅"},
+      {"texto": "Super Mario", "valor": "❌"},
+      {"texto": "Spider-Man (2018)", "valor": "✅"},
+      {"texto": "Minecraft", "valor": "❌"}
     ]
   },
   {
@@ -1355,16 +1355,16 @@
     "pregunta": "¿Es este un personaje de El Señor de los Anillos?",
     "tipo": "BOOLEAN",
     "opciones": [
-      {"texto": "Frodo Bolsón", "valor": true},
-      {"texto": "Harry Potter", "valor": false},
-      {"texto": "Gandalf", "valor": true},
-      {"texto": "Aragorn", "valor": true},
-      {"texto": "Dumbledore", "valor": false},
-      {"texto": "Legolas", "valor": true},
-      {"texto": "Gollum", "valor": true},
-      {"texto": "Jon Nieve", "valor": false},
-      {"texto": "Sauron", "valor": true},
-      {"texto": "Geralt de Rivia", "valor": false}
+      {"texto": "Frodo Bolsón", "valor": "✅"},
+      {"texto": "Harry Potter", "valor": "❌"},
+      {"texto": "Gandalf", "valor": "✅"},
+      {"texto": "Aragorn", "valor": "✅"},
+      {"texto": "Dumbledore", "valor": "❌"},
+      {"texto": "Legolas", "valor": "✅"},
+      {"texto": "Gollum", "valor": "✅"},
+      {"texto": "Jon Nieve", "valor": "❌"},
+      {"texto": "Sauron", "valor": "✅"},
+      {"texto": "Geralt de Rivia", "valor": "❌"}
     ]
   },
   {
@@ -1445,16 +1445,16 @@
     "pregunta": "¿Es este artista/grupo latino?",
     "tipo": "BOOLEAN",
     "opciones": [
-      {"texto": "Shakira", "valor": true},
-      {"texto": "Bad Bunny", "valor": true},
-      {"texto": "Daddy Yankee", "valor": true},
-      {"texto": "The Weeknd", "valor": false},
-      {"texto": "J Balvin", "valor": true},
-      {"texto": "Drake", "valor": false},
-      {"texto": "Maluma", "valor": true},
-      {"texto": "Rosalía", "valor": true},
-      {"texto": "Ed Sheeran", "valor": false},
-      {"texto": "Ozuna", "valor": true}
+      {"texto": "Shakira", "valor": "✅"},
+      {"texto": "Bad Bunny", "valor": "✅"},
+      {"texto": "Daddy Yankee", "valor": "✅"},
+      {"texto": "The Weeknd", "valor": "❌"},
+      {"texto": "J Balvin", "valor": "✅"},
+      {"texto": "Drake", "valor": "❌"},
+      {"texto": "Maluma", "valor": "✅"},
+      {"texto": "Rosalía", "valor": "✅"},
+      {"texto": "Ed Sheeran", "valor": "❌"},
+      {"texto": "Ozuna", "valor": "✅"}
     ]
   },
   {
@@ -1481,16 +1481,16 @@
     "pregunta": "¿Participó este país en la Segunda Guerra Mundial?",
     "tipo": "BOOLEAN",
     "opciones": [
-      {"texto": "Estados Unidos", "valor": true},
-      {"texto": "Alemania", "valor": true},
-      {"texto": "Suiza", "valor": false},
-      {"texto": "Japón", "valor": true},
-      {"texto": "España", "valor": false},
-      {"texto": "Reino Unido", "valor": true},
-      {"texto": "Italia", "valor": true},
-      {"texto": "Suecia", "valor": false},
-      {"texto": "Francia", "valor": true},
-      {"texto": "Argentina", "valor": false}
+      {"texto": "Estados Unidos", "valor": "✅"},
+      {"texto": "Alemania", "valor": "✅"},
+      {"texto": "Suiza", "valor": "❌"},
+      {"texto": "Japón", "valor": "✅"},
+      {"texto": "España", "valor": "❌"},
+      {"texto": "Reino Unido", "valor": "✅"},
+      {"texto": "Italia", "valor": "✅"},
+      {"texto": "Suecia", "valor": "❌"},
+      {"texto": "Francia", "valor": "✅"},
+      {"texto": "Argentina", "valor": "❌"}
     ]
   },
   {
@@ -1535,16 +1535,16 @@
     "pregunta": "¿Es este un país sin salida al mar?",
     "tipo": "BOOLEAN",
     "opciones": [
-      {"texto": "Bolivia", "valor": true},
-      {"texto": "Chile", "valor": false},
-      {"texto": "Suiza", "valor": true},
-      {"texto": "Mongolia", "valor": true},
-      {"texto": "Tailandia", "valor": false},
-      {"texto": "Austria", "valor": true},
-      {"texto": "Paraguay", "valor": true},
-      {"texto": "Polonia", "valor": false},
-      {"texto": "República Checa", "valor": true},
-      {"texto": "Ucrania", "valor": false}
+      {"texto": "Bolivia", "valor": "✅"},
+      {"texto": "Chile", "valor": "❌"},
+      {"texto": "Suiza", "valor": "✅"},
+      {"texto": "Mongolia", "valor": "✅"},
+      {"texto": "Tailandia", "valor": "❌"},
+      {"texto": "Austria", "valor": "✅"},
+      {"texto": "Paraguay", "valor": "✅"},
+      {"texto": "Polonia", "valor": "❌"},
+      {"texto": "República Checa", "valor": "✅"},
+      {"texto": "Ucrania", "valor": "❌"}
     ]
   },
   {
@@ -1607,16 +1607,16 @@
     "pregunta": "¿Es este un metal de la tabla periódica?",
     "tipo": "BOOLEAN",
     "opciones": [
-      {"texto": "Hierro", "valor": true},
-      {"texto": "Carbono", "valor": false},
-      {"texto": "Oro", "valor": true},
-      {"texto": "Oxígeno", "valor": false},
-      {"texto": "Plata", "valor": true},
-      {"texto": "Nitrógeno", "valor": false},
-      {"texto": "Cobre", "valor": true},
-      {"texto": "Helio", "valor": false},
-      {"texto": "Aluminio", "valor": true},
-      {"texto": "Cloro", "valor": false}
+      {"texto": "Hierro", "valor": "✅"},
+      {"texto": "Carbono", "valor": "❌"},
+      {"texto": "Oro", "valor": "✅"},
+      {"texto": "Oxígeno", "valor": "❌"},
+      {"texto": "Plata", "valor": "✅"},
+      {"texto": "Nitrógeno", "valor": "❌"},
+      {"texto": "Cobre", "valor": "✅"},
+      {"texto": "Helio", "valor": "❌"},
+      {"texto": "Aluminio", "valor": "✅"},
+      {"texto": "Cloro", "valor": "❌"}
     ]
   },
   {
@@ -1661,16 +1661,16 @@
     "pregunta": "¿Es este un ingrediente principal de la pizza Margherita?",
     "tipo": "BOOLEAN",
     "opciones": [
-      {"texto": "Tomate", "valor": true},
-      {"texto": "Mozzarella", "valor": true},
-      {"texto": "Albahaca", "valor": true},
-      {"texto": "Pepperoni", "valor": false},
-      {"texto": "Aceite de oliva", "valor": true},
-      {"texto": "Jamón", "valor": false},
-      {"texto": "Masa de pizza", "valor": true},
-      {"texto": "Champiñones", "valor": false},
-      {"texto": "Orégano", "valor": false},
-      {"texto": "Pimiento", "valor": false}
+      {"texto": "Tomate", "valor": "✅"},
+      {"texto": "Mozzarella", "valor": "✅"},
+      {"texto": "Albahaca", "valor": "✅"},
+      {"texto": "Pepperoni", "valor": "❌"},
+      {"texto": "Aceite de oliva", "valor": "✅"},
+      {"texto": "Jamón", "valor": "❌"},
+      {"texto": "Masa de pizza", "valor": "✅"},
+      {"texto": "Champiñones", "valor": "❌"},
+      {"texto": "Orégano", "valor": "❌"},
+      {"texto": "Pimiento", "valor": "❌"}
     ]
   },
   {
@@ -1715,16 +1715,16 @@
     "pregunta": "¿Ganó esta película el Óscar a Mejor Película de Animación?",
     "tipo": "BOOLEAN",
     "opciones": [
-      {"texto": "Up", "valor": true},
-      {"texto": "Shrek", "valor": true},
-      {"texto": "Buscando a Nemo", "valor": true},
-      {"texto": "El Viaje de Chihiro", "valor": true},
-      {"texto": "Los Increíbles", "valor": true},
-      {"texto": "El Rey León (1994)", "valor": false},
-      {"texto": "Toy Story", "valor": false},
-      {"texto": "Frozen", "valor": true},
-      {"texto": "Wall-E", "valor": true},
-      {"texto": "Moana", "valor": false}
+      {"texto": "Up", "valor": "✅"},
+      {"texto": "Shrek", "valor": "✅"},
+      {"texto": "Buscando a Nemo", "valor": "✅"},
+      {"texto": "El Viaje de Chihiro", "valor": "✅"},
+      {"texto": "Los Increíbles", "valor": "✅"},
+      {"texto": "El Rey León (1994)", "valor": "❌"},
+      {"texto": "Toy Story", "valor": "❌"},
+      {"texto": "Frozen", "valor": "✅"},
+      {"texto": "Wall-E", "valor": "✅"},
+      {"texto": "Moana", "valor": "❌"}
     ]
   },
   {
@@ -1751,16 +1751,16 @@
     "pregunta": "¿Es este un lenguaje de programación?",
     "tipo": "BOOLEAN",
     "opciones": [
-      {"texto": "Python", "valor": true},
-      {"texto": "JavaScript", "valor": true},
-      {"texto": "HTML", "valor": false},
-      {"texto": "Java", "valor": true},
-      {"texto": "CSS", "valor": false},
-      {"texto": "C++", "valor": true},
-      {"texto": "SQL", "valor": true},
-      {"texto": "TypeScript", "valor": true},
-      {"texto": "JSON", "valor": false},
-      {"texto": "Ruby", "valor": true}
+      {"texto": "Python", "valor": "✅"},
+      {"texto": "JavaScript", "valor": "✅"},
+      {"texto": "HTML", "valor": "❌"},
+      {"texto": "Java", "valor": "✅"},
+      {"texto": "CSS", "valor": "❌"},
+      {"texto": "C++", "valor": "✅"},
+      {"texto": "SQL", "valor": "✅"},
+      {"texto": "TypeScript", "valor": "✅"},
+      {"texto": "JSON", "valor": "❌"},
+      {"texto": "Ruby", "valor": "✅"}
     ]
   },
   {
@@ -1841,16 +1841,16 @@
     "pregunta": "¿Es este animal originario de África?",
     "tipo": "BOOLEAN",
     "opciones": [
-      {"texto": "León", "valor": true},
-      {"texto": "Canguro", "valor": false},
-      {"texto": "Jirafa", "valor": true},
-      {"texto": "Tigre", "valor": false},
-      {"texto": "Hipopótamo", "valor": true},
-      {"texto": "Oso Panda", "valor": false},
-      {"texto": "Zebra", "valor": true},
-      {"texto": "Koala", "valor": false},
-      {"texto": "Gorila", "valor": true},
-      {"texto": "Llama", "valor": false}
+      {"texto": "León", "valor": "✅"},
+      {"texto": "Canguro", "valor": "❌"},
+      {"texto": "Jirafa", "valor": "✅"},
+      {"texto": "Tigre", "valor": "❌"},
+      {"texto": "Hipopótamo", "valor": "✅"},
+      {"texto": "Oso Panda", "valor": "❌"},
+      {"texto": "Zebra", "valor": "✅"},
+      {"texto": "Koala", "valor": "❌"},
+      {"texto": "Gorila", "valor": "✅"},
+      {"texto": "Llama", "valor": "❌"}
     ]
   },
   {
@@ -1931,16 +1931,1816 @@
     "pregunta": "¿Es este artista ganador de un Grammy?",
     "tipo": "BOOLEAN",
     "opciones": [
-      {"texto": "Taylor Swift", "valor": true},
-      {"texto": "Beyoncé", "valor": true},
-      {"texto": "Nicki Minaj", "valor": false},
-      {"texto": "Adele", "valor": true},
-      {"texto": "Katy Perry", "valor": false},
-      {"texto": "Bruno Mars", "valor": true},
-      {"texto": "Ed Sheeran", "valor": true},
-      {"texto": "Ariana Grande", "valor": true},
-      {"texto": "Snoop Dogg", "valor": false},
-      {"texto": "Lady Gaga", "valor": true}
+      {"texto": "Taylor Swift", "valor": "✅"},
+      {"texto": "Beyoncé", "valor": "✅"},
+      {"texto": "Nicki Minaj", "valor": "❌"},
+      {"texto": "Adele", "valor": "✅"},
+      {"texto": "Katy Perry", "valor": "❌"},
+      {"texto": "Bruno Mars", "valor": "✅"},
+      {"texto": "Ed Sheeran", "valor": "✅"},
+      {"texto": "Ariana Grande", "valor": "✅"},
+      {"texto": "Snoop Dogg", "valor": "❌"},
+      {"texto": "Lady Gaga", "valor": "✅"}
+    ]
+  },
+  {
+    "id": 101,
+    "tema": "Matemáticas",
+    "pregunta": "¿Cuál es el siguiente número primo después de...?",
+    "tipo": "NUMBER",
+    "opciones": [
+      {"texto": "Primer primo después de 100", "valor": 101},
+      {"texto": "Primer primo después de 200", "valor": 211},
+      {"texto": "Primer primo después de 300", "valor": 307},
+      {"texto": "Primer primo después de 150", "valor": 151},
+      {"texto": "Primer primo después de 500", "valor": 503},
+      {"texto": "Primer primo después de 250", "valor": 251},
+      {"texto": "Primer primo después de 400", "valor": 401},
+      {"texto": "Primer primo después de 50", "valor": 53},
+      {"texto": "Primer primo después de 180", "valor": 181},
+      {"texto": "Primer primo después de 350", "valor": 353}
+    ]
+  },
+  {
+    "id": 102,
+    "tema": "Química Avanzada",
+    "pregunta": "¿Es este elemento radiactivo en la naturaleza?",
+    "tipo": "BOOLEAN",
+    "opciones": [
+      {"texto": "Uranio", "valor": "✅"},
+      {"texto": "Hierro", "valor": "❌"},
+      {"texto": "Plutonio", "valor": "✅"},
+      {"texto": "Carbono-14", "valor": "✅"},
+      {"texto": "Potasio-40", "valor": "✅"},
+      {"texto": "Oxígeno", "valor": "❌"},
+      {"texto": "Torio", "valor": "✅"},
+      {"texto": "Calcio", "valor": "❌"},
+      {"texto": "Radio", "valor": "✅"},
+      {"texto": "Zinc", "valor": "❌"}
+    ]
+  },
+  {
+    "id": 103,
+    "tema": "Historia Antigua",
+    "pregunta": "Ordena estos imperios por orden cronológico de aparición (1 = Más antiguo)",
+    "tipo": "ORDER",
+    "opciones": [
+      {"texto": "Imperio Romano", "valor": 5},
+      {"texto": "Sumeria", "valor": 1},
+      {"texto": "Imperio Persa Aqueménida", "valor": 4},
+      {"texto": "Antiguo Egipto (Imperio Nuevo)", "valor": 2},
+      {"texto": "Imperio Asirio", "valor": 3},
+      {"texto": "Imperio Bizantino", "valor": 6},
+      {"texto": "Imperio Maurya (India)", "valor": 7},
+      {"texto": "Dinastía Han (China)", "valor": 8},
+      {"texto": "Imperio Sasánida", "valor": 9},
+      {"texto": "Imperio Gupta", "valor": 10}
+    ]
+  },
+  {
+    "id": 104,
+    "tema": "Biología",
+    "pregunta": "¿Cuántos cromosomas tiene esta especie?",
+    "tipo": "NUMBER",
+    "opciones": [
+      {"texto": "Humano", "valor": 46},
+      {"texto": "Perro", "valor": 78},
+      {"texto": "Mosquito", "valor": 6},
+      {"texto": "Chimpancé", "valor": 48},
+      {"texto": "Gato", "valor": 38},
+      {"texto": "Arroz", "valor": 24},
+      {"texto": "Caballo", "valor": 64},
+      {"texto": "Mariposa monarca", "valor": 30},
+      {"texto": "Gallina", "valor": 78},
+      {"texto": "Patata", "valor": 48}
+    ]
+  },
+  {
+    "id": 105,
+    "tema": "Literatura Mundial",
+    "pregunta": "¿Quién escribió esta obra? (Apellido del autor)",
+    "tipo": "TEXT",
+    "opciones": [
+      {"texto": "Ulises", "valor": "Joyce"},
+      {"texto": "En busca del tiempo perdido", "valor": "Proust"},
+      {"texto": "La montaña mágica", "valor": "Mann"},
+      {"texto": "Los hermanos Karamázov", "valor": "Dostoievski"},
+      {"texto": "Fausto", "valor": "Goethe"},
+      {"texto": "La divina comedia", "valor": "Dante"},
+      {"texto": "Paradiso", "valor": "Lezama Lima"},
+      {"texto": "El proceso", "valor": "Kafka"},
+      {"texto": "El ruido y la furia", "valor": "Faulkner"},
+      {"texto": "La metamorfosis", "valor": "Kafka"}
+    ]
+  },
+  {
+    "id": 106,
+    "tema": "Geografía Física",
+    "pregunta": "¿En qué continente se encuentra esta formación geográfica?",
+    "tipo": "TEXT",
+    "opciones": [
+      {"texto": "Desierto del Gobi", "valor": "Asia"},
+      {"texto": "Monte Kilimanjaro", "valor": "África"},
+      {"texto": "Lago Baikal", "valor": "Asia"},
+      {"texto": "Gran Cañón del Colorado", "valor": "América"},
+      {"texto": "Desierto de Atacama", "valor": "América"},
+      {"texto": "Fiordo de Geiranger", "valor": "Europa"},
+      {"texto": "Gran Barrera de Coral", "valor": "Oceanía"},
+      {"texto": "Delta del Okavango", "valor": "África"},
+      {"texto": "Glaciar Perito Moreno", "valor": "América"},
+      {"texto": "Monte Elbrus", "valor": "Europa"}
+    ]
+  },
+  {
+    "id": 107,
+    "tema": "Física",
+    "pregunta": "¿Ganó esta persona el Premio Nobel de Física?",
+    "tipo": "BOOLEAN",
+    "opciones": [
+      {"texto": "Albert Einstein", "valor": "✅"},
+      {"texto": "Stephen Hawking", "valor": "❌"},
+      {"texto": "Marie Curie", "valor": "✅"},
+      {"texto": "Nikola Tesla", "valor": "❌"},
+      {"texto": "Richard Feynman", "valor": "✅"},
+      {"texto": "Erwin Schrödinger", "valor": "✅"},
+      {"texto": "Carl Sagan", "valor": "❌"},
+      {"texto": "Werner Heisenberg", "valor": "✅"},
+      {"texto": "Neil deGrasse Tyson", "valor": "❌"},
+      {"texto": "Niels Bohr", "valor": "✅"}
+    ]
+  },
+  {
+    "id": 108,
+    "tema": "Arquitectura",
+    "pregunta": "¿En qué siglo se construyó este edificio?",
+    "tipo": "NUMBER",
+    "opciones": [
+      {"texto": "Notre-Dame de París", "valor": 12},
+      {"texto": "Partenón de Atenas", "valor": -5},
+      {"texto": "Coliseo Romano", "valor": 1},
+      {"texto": "Alhambra de Granada", "valor": 14},
+      {"texto": "Taj Mahal", "valor": 17},
+      {"texto": "Torre Eiffel", "valor": 19},
+      {"texto": "Burj Khalifa", "valor": 21},
+      {"texto": "Catedral de San Basilio", "valor": 16},
+      {"texto": "Angkor Wat", "valor": 12},
+      {"texto": "Machu Picchu", "valor": 15}
+    ]
+  },
+  {
+    "id": 109,
+    "tema": "Música Clásica Avanzada",
+    "pregunta": "Ordena estos compositores por fecha de nacimiento (1 = Más antiguo)",
+    "tipo": "ORDER",
+    "opciones": [
+      {"texto": "Johann Sebastian Bach", "valor": 1},
+      {"texto": "Wolfgang Amadeus Mozart", "valor": 2},
+      {"texto": "Ludwig van Beethoven", "valor": 3},
+      {"texto": "Frédéric Chopin", "valor": 4},
+      {"texto": "Richard Wagner", "valor": 5},
+      {"texto": "Johannes Brahms", "valor": 6},
+      {"texto": "Claude Debussy", "valor": 7},
+      {"texto": "Igor Stravinsky", "valor": 8},
+      {"texto": "Dmitri Shostakóvich", "valor": 9},
+      {"texto": "John Cage", "valor": 10}
+    ]
+  },
+  {
+    "id": 110,
+    "tema": "Economía",
+    "pregunta": "¿Cuál es la moneda oficial?",
+    "tipo": "TEXT",
+    "opciones": [
+      {"texto": "Japón", "valor": "Yen"},
+      {"texto": "Reino Unido", "valor": "Libra"},
+      {"texto": "Suiza", "valor": "Franco"},
+      {"texto": "Polonia", "valor": "Zloty"},
+      {"texto": "Hungría", "valor": "Forinto"},
+      {"texto": "República Checa", "valor": "Corona"},
+      {"texto": "Dinamarca", "valor": "Corona"},
+      {"texto": "Noruega", "valor": "Corona"},
+      {"texto": "Suecia", "valor": "Corona"},
+      {"texto": "Islandia", "valor": "Corona"}
+    ]
+  },
+  {
+    "id": 111,
+    "tema": "Ciencias Naturales",
+    "pregunta": "¿Es este animal ovíparo (pone huevos)?",
+    "tipo": "BOOLEAN",
+    "opciones": [
+      {"texto": "Ornitorrinco", "valor": "✅"},
+      {"texto": "Murciélago", "valor": "❌"},
+      {"texto": "Cocodrilo", "valor": "✅"},
+      {"texto": "Tiburón blanco", "valor": "❌"},
+      {"texto": "Pitón", "valor": "✅"},
+      {"texto": "Ballena", "valor": "❌"},
+      {"texto": "Pingüino emperador", "valor": "✅"},
+      {"texto": "Delfín", "valor": "❌"},
+      {"texto": "Tortuga marina", "valor": "✅"},
+      {"texto": "Foca", "valor": "❌"}
+    ]
+  },
+  {
+    "id": 112,
+    "tema": "Historia Contemporánea",
+    "pregunta": "¿En qué año ocurrió este evento histórico?",
+    "tipo": "NUMBER",
+    "opciones": [
+      {"texto": "Caída del Muro de Berlín", "valor": 1989},
+      {"texto": "Disolución de la URSS", "valor": 1991},
+      {"texto": "Atentados del 11-S", "valor": 2001},
+      {"texto": "Guerra de las Malvinas", "valor": 1982},
+      {"texto": "Revolución Iraní", "valor": 1979},
+      {"texto": "Crisis de los misiles de Cuba", "valor": 1962},
+      {"texto": "Guerra de Vietnam (inicio)", "valor": 1955},
+      {"texto": "Primavera Árabe", "valor": 2011},
+      {"texto": "Independencia de India", "valor": 1947},
+      {"texto": "Tratado de Maastricht", "valor": 1992}
+    ]
+  },
+  {
+    "id": 113,
+    "tema": "Mitología Mundial",
+    "pregunta": "¿A qué mitología pertenece este dios/personaje?",
+    "tipo": "TEXT",
+    "opciones": [
+      {"texto": "Odín", "valor": "Nórdica"},
+      {"texto": "Anubis", "valor": "Egipcia"},
+      {"texto": "Quetzalcóatl", "valor": "Azteca"},
+      {"texto": "Shiva", "valor": "Hindú"},
+      {"texto": "Amaterasu", "valor": "Japonesa"},
+      {"texto": "Cernunnos", "valor": "Céltica"},
+      {"texto": "Marduk", "valor": "Babilónica"},
+      {"texto": "Viracocha", "valor": "Inca"},
+      {"texto": "Tengri", "valor": "Mongol"},
+      {"texto": "Osiris", "valor": "Egipcia"}
+    ]
+  },
+  {
+    "id": 114,
+    "tema": "Astronomía Avanzada",
+    "pregunta": "Ordena estas lunas del Sistema Solar por tamaño (1 = Mayor)",
+    "tipo": "ORDER",
+    "opciones": [
+      {"texto": "Ganímedes (Júpiter)", "valor": 1},
+      {"texto": "Titán (Saturno)", "valor": 2},
+      {"texto": "Calisto (Júpiter)", "valor": 3},
+      {"texto": "Ío (Júpiter)", "valor": 4},
+      {"texto": "Luna (Tierra)", "valor": 5},
+      {"texto": "Europa (Júpiter)", "valor": 6},
+      {"texto": "Tritón (Neptuno)", "valor": 7},
+      {"texto": "Titania (Urano)", "valor": 8},
+      {"texto": "Rea (Saturno)", "valor": 9},
+      {"texto": "Oberón (Urano)", "valor": 10}
+    ]
+  },
+  {
+    "id": 115,
+    "tema": "Tecnología Histórica",
+    "pregunta": "¿Quién inventó o desarrolló esto?",
+    "tipo": "TEXT",
+    "opciones": [
+      {"texto": "World Wide Web", "valor": "Berners-Lee"},
+      {"texto": "Teoría de la Relatividad", "valor": "Einstein"},
+      {"texto": "Penicilina", "valor": "Fleming"},
+      {"texto": "Máquina de vapor", "valor": "Watt"},
+      {"texto": "Bombilla incandescente", "valor": "Edison"},
+      {"texto": "Teoría de la evolución", "valor": "Darwin"},
+      {"texto": "Estructura del ADN", "valor": "Watson"},
+      {"texto": "Radio", "valor": "Marconi"},
+      {"texto": "Vacuna antirrábica", "valor": "Pasteur"},
+      {"texto": "Ley de la gravitación", "valor": "Newton"}
+    ]
+  },
+  {
+    "id": 116,
+    "tema": "Geografía Política",
+    "pregunta": "¿Es este país miembro permanente del Consejo de Seguridad de la ONU?",
+    "tipo": "BOOLEAN",
+    "opciones": [
+      {"texto": "China", "valor": "✅"},
+      {"texto": "Estados Unidos", "valor": "✅"},
+      {"texto": "Alemania", "valor": "❌"},
+      {"texto": "Rusia", "valor": "✅"},
+      {"texto": "Japón", "valor": "❌"},
+      {"texto": "Francia", "valor": "✅"},
+      {"texto": "Reino Unido", "valor": "✅"},
+      {"texto": "India", "valor": "❌"},
+      {"texto": "Brasil", "valor": "❌"},
+      {"texto": "Italia", "valor": "❌"}
+    ]
+  },
+  {
+    "id": 117,
+    "tema": "Arte Moderno",
+    "pregunta": "¿A qué movimiento artístico pertenece este artista?",
+    "tipo": "TEXT",
+    "opciones": [
+      {"texto": "Salvador Dalí", "valor": "Surrealismo"},
+      {"texto": "Pablo Picasso", "valor": "Cubismo"},
+      {"texto": "Claude Monet", "valor": "Impresionismo"},
+      {"texto": "Jackson Pollock", "valor": "Expresionismo"},
+      {"texto": "Andy Warhol", "valor": "Pop Art"},
+      {"texto": "Wassily Kandinsky", "valor": "Abstracto"},
+      {"texto": "René Magritte", "valor": "Surrealismo"},
+      {"texto": "Piet Mondrian", "valor": "Neoplasticismo"},
+      {"texto": "Edvard Munch", "valor": "Expresionismo"},
+      {"texto": "Henri Matisse", "valor": "Fauvismo"}
+    ]
+  },
+  {
+    "id": 118,
+    "tema": "Lingüística",
+    "pregunta": "¿A qué familia lingüística pertenece este idioma?",
+    "tipo": "TEXT",
+    "opciones": [
+      {"texto": "Hindi", "valor": "Indoeuropea"},
+      {"texto": "Árabe", "valor": "Semítica"},
+      {"texto": "Mandarín", "valor": "Sino-Tibetana"},
+      {"texto": "Swahili", "valor": "Níger-Congo"},
+      {"texto": "Turco", "valor": "Túrquica"},
+      {"texto": "Finlandés", "valor": "Urálica"},
+      {"texto": "Coreano", "valor": "Koreánica"},
+      {"texto": "Japonés", "valor": "Japónica"},
+      {"texto": "Hebreo", "valor": "Semítica"},
+      {"texto": "Húngaro", "valor": "Urálica"}
+    ]
+  },
+  {
+    "id": 119,
+    "tema": "Medicina",
+    "pregunta": "¿En qué siglo se descubrió/desarrolló este avance médico?",
+    "tipo": "NUMBER",
+    "opciones": [
+      {"texto": "Vacunación (Jenner)", "valor": 18},
+      {"texto": "Anestesia general", "valor": 19},
+      {"texto": "Rayos X", "valor": 19},
+      {"texto": "Antibióticos (Penicilina)", "valor": 20},
+      {"texto": "Insulina", "valor": 20},
+      {"texto": "Trasplante de corazón", "valor": 20},
+      {"texto": "Viagra", "valor": 20},
+      {"texto": "ADN (estructura)", "valor": 20},
+      {"texto": "Vacuna COVID-19 ARNm", "valor": 21},
+      {"texto": "Circulación sanguínea", "valor": 17}
+    ]
+  },
+  {
+    "id": 120,
+    "tema": "Filosofía",
+    "pregunta": "¿A qué época/corriente filosófica pertenece este filósofo?",
+    "tipo": "TEXT",
+    "opciones": [
+      {"texto": "Sócrates", "valor": "Antigua"},
+      {"texto": "René Descartes", "valor": "Moderna"},
+      {"texto": "Friedrich Nietzsche", "valor": "Contemporánea"},
+      {"texto": "Immanuel Kant", "valor": "Moderna"},
+      {"texto": "Platón", "valor": "Antigua"},
+      {"texto": "Jean-Paul Sartre", "valor": "Contemporánea"},
+      {"texto": "Tomás de Aquino", "valor": "Medieval"},
+      {"texto": "Karl Marx", "valor": "Contemporánea"},
+      {"texto": "Aristóteles", "valor": "Antigua"},
+      {"texto": "Ludwig Wittgenstein", "valor": "Contemporánea"}
+    ]
+  },
+  {
+    "id": 121,
+    "tema": "Oceanografía",
+    "pregunta": "Ordena estas fosas oceánicas por profundidad (1 = Más profunda)",
+    "tipo": "ORDER",
+    "opciones": [
+      {"texto": "Fosa de las Marianas", "valor": 1},
+      {"texto": "Fosa de Tonga", "valor": 2},
+      {"texto": "Fosa de Filipinas", "valor": 3},
+      {"texto": "Fosa de Kermadec", "valor": 4},
+      {"texto": "Fosa de las Kuriles", "valor": 5},
+      {"texto": "Fosa de Japón", "valor": 6},
+      {"texto": "Fosa de Puerto Rico", "valor": 7},
+      {"texto": "Fosa de Perú-Chile", "valor": 8},
+      {"texto": "Fosa de Java", "valor": 9},
+      {"texto": "Fosa Romanche", "valor": 10}
+    ]
+  },
+  {
+    "id": 122,
+    "tema": "Cine de Autor",
+    "pregunta": "¿De qué nacionalidad es este director de cine?",
+    "tipo": "TEXT",
+    "opciones": [
+      {"texto": "Akira Kurosawa", "valor": "Japón"},
+      {"texto": "Ingmar Bergman", "valor": "Suecia"},
+      {"texto": "Federico Fellini", "valor": "Italia"},
+      {"texto": "Andrei Tarkovsky", "valor": "Rusia"},
+      {"texto": "Pedro Almodóvar", "valor": "España"},
+      {"texto": "Wong Kar-wai", "valor": "China"},
+      {"texto": "Lars von Trier", "valor": "Dinamarca"},
+      {"texto": "Alejandro González Iñárritu", "valor": "México"},
+      {"texto": "Park Chan-wook", "valor": "Corea"},
+      {"texto": "Michael Haneke", "valor": "Austria"}
+    ]
+  },
+  {
+    "id": 123,
+    "tema": "Geología",
+    "pregunta": "¿Es esta una roca ígnea?",
+    "tipo": "BOOLEAN",
+    "opciones": [
+      {"texto": "Basalto", "valor": "✅"},
+      {"texto": "Granito", "valor": "✅"},
+      {"texto": "Mármol", "valor": "❌"},
+      {"texto": "Obsidiana", "valor": "✅"},
+      {"texto": "Caliza", "valor": "❌"},
+      {"texto": "Pumita", "valor": "✅"},
+      {"texto": "Pizarra", "valor": "❌"},
+      {"texto": "Diorita", "valor": "✅"},
+      {"texto": "Arenisca", "valor": "❌"},
+      {"texto": "Riolita", "valor": "✅"}
+    ]
+  },
+  {
+    "id": 124,
+    "tema": "Matemáticas Avanzadas",
+    "pregunta": "¿Qué matemático famoso trabajó en este campo/teorema?",
+    "tipo": "TEXT",
+    "opciones": [
+      {"texto": "Último teorema de Fermat", "valor": "Fermat"},
+      {"texto": "Teorema de Pitágoras", "valor": "Pitágoras"},
+      {"texto": "Números de Fibonacci", "valor": "Fibonacci"},
+      {"texto": "Conjetura de Goldbach", "valor": "Goldbach"},
+      {"texto": "Teorema de Euler", "valor": "Euler"},
+      {"texto": "Paradoja de Russell", "valor": "Russell"},
+      {"texto": "Teorema de Gödel", "valor": "Gödel"},
+      {"texto": "Constante de Planck", "valor": "Planck"},
+      {"texto": "Hipótesis de Riemann", "valor": "Riemann"},
+      {"texto": "Fractales de Mandelbrot", "valor": "Mandelbrot"}
+    ]
+  },
+  {
+    "id": 125,
+    "tema": "Ecología",
+    "pregunta": "¿Cuántos biomas terrestres principales reconoce la clasificación ecológica?",
+    "tipo": "NUMBER",
+    "opciones": [
+      {"texto": "Biomas terrestres principales", "valor": 8},
+      {"texto": "Océanos del mundo", "valor": 5},
+      {"texto": "Capas de la atmósfera", "valor": 5},
+      {"texto": "Niveles tróficos típicos", "valor": 4},
+      {"texto": "Reinos biológicos", "valor": 6},
+      {"texto": "Continentes", "valor": 7},
+      {"texto": "Zonas climáticas principales", "valor": 5},
+      {"texto": "Grandes biomas marinos", "valor": 4},
+      {"texto": "Tipos de bosques principales", "valor": 3},
+      {"texto": "Desiertos principales", "valor": 5}
+    ]
+  },
+  {
+    "id": 126,
+    "tema": "Historia del Arte",
+    "pregunta": "Ordena estos períodos artísticos cronológicamente (1 = Más antiguo)",
+    "tipo": "ORDER",
+    "opciones": [
+      {"texto": "Románico", "valor": 1},
+      {"texto": "Gótico", "valor": 2},
+      {"texto": "Renacimiento", "valor": 3},
+      {"texto": "Barroco", "valor": 4},
+      {"texto": "Rococó", "valor": 5},
+      {"texto": "Neoclasicismo", "valor": 6},
+      {"texto": "Romanticismo", "valor": 7},
+      {"texto": "Impresionismo", "valor": 8},
+      {"texto": "Art Nouveau", "valor": 9},
+      {"texto": "Art Déco", "valor": 10}
+    ]
+  },
+  {
+    "id": 127,
+    "tema": "Premios Nobel",
+    "pregunta": "¿Ganó esta persona el Premio Nobel de Literatura?",
+    "tipo": "BOOLEAN",
+    "opciones": [
+      {"texto": "Gabriel García Márquez", "valor": "✅"},
+      {"texto": "Jorge Luis Borges", "valor": "❌"},
+      {"texto": "Mario Vargas Llosa", "valor": "✅"},
+      {"texto": "Julio Cortázar", "valor": "❌"},
+      {"texto": "Pablo Neruda", "valor": "✅"},
+      {"texto": "Carlos Fuentes", "valor": "❌"},
+      {"texto": "Octavio Paz", "valor": "✅"},
+      {"texto": "Roberto Bolaño", "valor": "❌"},
+      {"texto": "Miguel Ángel Asturias", "valor": "✅"},
+      {"texto": "Juan Rulfo", "valor": "❌"}
+    ]
+  },
+  {
+    "id": 128,
+    "tema": "Climatología",
+    "pregunta": "¿Qué tipo de clima tiene predominantemente esta ciudad?",
+    "tipo": "TEXT",
+    "opciones": [
+      {"texto": "Singapur", "valor": "Tropical"},
+      {"texto": "Moscú", "valor": "Continental"},
+      {"texto": "Barcelona", "valor": "Mediterráneo"},
+      {"texto": "Londres", "valor": "Oceánico"},
+      {"texto": "El Cairo", "valor": "Desértico"},
+      {"texto": "Ciudad de México", "valor": "Subtropical"},
+      {"texto": "Reikiavik", "valor": "Subpolar"},
+      {"texto": "Sídney", "valor": "Subtropical"},
+      {"texto": "Dubái", "valor": "Desértico"},
+      {"texto": "Seattle", "valor": "Oceánico"}
+    ]
+  },
+  {
+    "id": 129,
+    "tema": "Ópera",
+    "pregunta": "¿Quién compuso esta ópera famosa?",
+    "tipo": "TEXT",
+    "opciones": [
+      {"texto": "La Traviata", "valor": "Verdi"},
+      {"texto": "La Flauta Mágica", "valor": "Mozart"},
+      {"texto": "Carmen", "valor": "Bizet"},
+      {"texto": "Madama Butterfly", "valor": "Puccini"},
+      {"texto": "El Anillo del Nibelungo", "valor": "Wagner"},
+      {"texto": "Las bodas de Fígaro", "valor": "Mozart"},
+      {"texto": "Aida", "valor": "Verdi"},
+      {"texto": "La Bohème", "valor": "Puccini"},
+      {"texto": "Tristán e Isolda", "valor": "Wagner"},
+      {"texto": "Rigoletto", "valor": "Verdi"}
+    ]
+  },
+  {
+    "id": 130,
+    "tema": "Actualidad Política",
+    "pregunta": "¿En qué año asumió el cargo este líder mundial?",
+    "tipo": "NUMBER",
+    "opciones": [
+      {"texto": "Xi Jinping (China)", "valor": 2013},
+      {"texto": "Vladimir Putin (primera vez)", "valor": 2000},
+      {"texto": "Angela Merkel (Alemania)", "valor": 2005},
+      {"texto": "Emmanuel Macron (Francia)", "valor": 2017},
+      {"texto": "Narendra Modi (India)", "valor": 2014},
+      {"texto": "Recep Erdoğan (Turquía)", "valor": 2014},
+      {"texto": "Boris Johnson (Reino Unido)", "valor": 2019},
+      {"texto": "Justin Trudeau (Canadá)", "valor": 2015},
+      {"texto": "Joe Biden (EE.UU.)", "valor": 2021},
+      {"texto": "Jair Bolsonaro (Brasil)", "valor": 2019}
+    ]
+  },
+  {
+    "id": 131,
+    "tema": "Paleontología",
+    "pregunta": "Ordena estos períodos geológicos del más reciente al más antiguo (1 = Más reciente)",
+    "tipo": "ORDER",
+    "opciones": [
+      {"texto": "Cuaternario", "valor": 1},
+      {"texto": "Terciario/Neógeno", "valor": 2},
+      {"texto": "Cretácico", "valor": 3},
+      {"texto": "Jurásico", "valor": 4},
+      {"texto": "Triásico", "valor": 5},
+      {"texto": "Pérmico", "valor": 6},
+      {"texto": "Carbonífero", "valor": 7},
+      {"texto": "Devónico", "valor": 8},
+      {"texto": "Silúrico", "valor": 9},
+      {"texto": "Ordovícico", "valor": 10}
+    ]
+  },
+  {
+    "id": 132,
+    "tema": "Arquitectura Mundial",
+    "pregunta": "¿En qué país se encuentra este edificio emblemático?",
+    "tipo": "TEXT",
+    "opciones": [
+      {"texto": "Petronas Towers", "valor": "Malasia"},
+      {"texto": "Catedral de San Basilio", "valor": "Rusia"},
+      {"texto": "Atomium", "valor": "Bélgica"},
+      {"texto": "Lotus Temple", "valor": "India"},
+      {"texto": "CN Tower", "valor": "Canadá"},
+      {"texto": "Mezquita Azul", "valor": "Turquía"},
+      {"texto": "Templo Dorado", "valor": "India"},
+      {"texto": "Kinkaku-ji (Pabellón Dorado)", "valor": "Japón"},
+      {"texto": "Burj Al Arab", "valor": "Emiratos"},
+      {"texto": "Catedral de Brasilia", "valor": "Brasil"}
+    ]
+  },
+  {
+    "id": 133,
+    "tema": "Física Cuántica",
+    "pregunta": "¿Es este un concepto de la mecánica cuántica?",
+    "tipo": "BOOLEAN",
+    "opciones": [
+      {"texto": "Principio de incertidumbre", "valor": "✅"},
+      {"texto": "Ley de gravitación universal", "valor": "❌"},
+      {"texto": "Entrelazamiento cuántico", "valor": "✅"},
+      {"texto": "Tercera ley de Newton", "valor": "❌"},
+      {"texto": "Superposición cuántica", "valor": "✅"},
+      {"texto": "Efecto Doppler", "valor": "❌"},
+      {"texto": "Dualidad onda-partícula", "valor": "✅"},
+      {"texto": "Ley de Ohm", "valor": "❌"},
+      {"texto": "Gato de Schrödinger", "valor": "✅"},
+      {"texto": "Ley de Boyle", "valor": "❌"}
+    ]
+  },
+  {
+    "id": 134,
+    "tema": "Deportes Olímpicos",
+    "pregunta": "¿En qué año se celebraron estos Juegos Olímpicos de Invierno?",
+    "tipo": "NUMBER",
+    "opciones": [
+      {"texto": "Sochi", "valor": 2014},
+      {"texto": "Vancouver", "valor": 2010},
+      {"texto": "Turín", "valor": 2006},
+      {"texto": "Salt Lake City", "valor": 2002},
+      {"texto": "Nagano", "valor": 1998},
+      {"texto": "Lillehammer", "valor": 1994},
+      {"texto": "Albertville", "valor": 1992},
+      {"texto": "Calgary", "valor": 1988},
+      {"texto": "Sarajevo", "valor": 1984},
+      {"texto": "PyeongChang", "valor": 2018}
+    ]
+  },
+  {
+    "id": 135,
+    "tema": "Microbiología",
+    "pregunta": "¿Es este organismo procariota (sin núcleo celular)?",
+    "tipo": "BOOLEAN",
+    "opciones": [
+      {"texto": "Bacteria E. coli", "valor": "✅"},
+      {"texto": "Levadura", "valor": "❌"},
+      {"texto": "Cianobacteria", "valor": "✅"},
+      {"texto": "Ameba", "valor": "❌"},
+      {"texto": "Arquea metanógena", "valor": "✅"},
+      {"texto": "Paramecio", "valor": "❌"},
+      {"texto": "Estreptococo", "valor": "✅"},
+      {"texto": "Alga verde", "valor": "❌"},
+      {"texto": "Salmonella", "valor": "✅"},
+      {"texto": "Hongo penicillium", "valor": "❌"}
+    ]
+  },
+  {
+    "id": 136,
+    "tema": "Literatura Hispanoamericana",
+    "pregunta": "¿De qué país es este escritor?",
+    "tipo": "TEXT",
+    "opciones": [
+      {"texto": "Jorge Luis Borges", "valor": "Argentina"},
+      {"texto": "Gabriel García Márquez", "valor": "Colombia"},
+      {"texto": "Octavio Paz", "valor": "México"},
+      {"texto": "Pablo Neruda", "valor": "Chile"},
+      {"texto": "Mario Vargas Llosa", "valor": "Perú"},
+      {"texto": "Alejo Carpentier", "valor": "Cuba"},
+      {"texto": "Juan Rulfo", "valor": "México"},
+      {"texto": "Julio Cortázar", "valor": "Argentina"},
+      {"texto": "Carlos Fuentes", "valor": "México"},
+      {"texto": "Isabel Allende", "valor": "Chile"}
+    ]
+  },
+  {
+    "id": 137,
+    "tema": "Genética",
+    "pregunta": "¿Cuántas bases nitrogenadas tiene el ADN?",
+    "tipo": "NUMBER",
+    "opciones": [
+      {"texto": "Bases nitrogenadas en ADN", "valor": 4},
+      {"texto": "Aminoácidos esenciales", "valor": 9},
+      {"texto": "Codones de parada", "valor": 3},
+      {"texto": "Grupos sanguíneos ABO", "valor": 4},
+      {"texto": "Vitaminas hidrosolubles", "valor": 9},
+      {"texto": "Nucleótidos en un codón", "valor": 3},
+      {"texto": "Pares de cromosomas humanos", "valor": 23},
+      {"texto": "Tipos de ARN principales", "valor": 3},
+      {"texto": "Cadenas de ADN", "valor": 2},
+      {"texto": "Dominios de la vida", "valor": 3}
+    ]
+  },
+  {
+    "id": 138,
+    "tema": "Religiones del Mundo",
+    "pregunta": "¿A qué religión pertenece este concepto o práctica?",
+    "tipo": "TEXT",
+    "opciones": [
+      {"texto": "Karma", "valor": "Hinduismo"},
+      {"texto": "Ramadán", "valor": "Islam"},
+      {"texto": "Nirvana", "valor": "Budismo"},
+      {"texto": "Torá", "valor": "Judaísmo"},
+      {"texto": "Trinidad", "valor": "Cristianismo"},
+      {"texto": "Cinco Pilares", "valor": "Islam"},
+      {"texto": "Reencarnación", "valor": "Hinduismo"},
+      {"texto": "Noble Óctuple Sendero", "valor": "Budismo"},
+      {"texto": "Shabat", "valor": "Judaísmo"},
+      {"texto": "Eucaristía", "valor": "Cristianismo"}
+    ]
+  },
+  {
+    "id": 139,
+    "tema": "Jazz",
+    "pregunta": "¿Qué instrumento tocaba principalmente este músico de jazz?",
+    "tipo": "TEXT",
+    "opciones": [
+      {"texto": "Miles Davis", "valor": "Trompeta"},
+      {"texto": "John Coltrane", "valor": "Saxofón"},
+      {"texto": "Thelonious Monk", "valor": "Piano"},
+      {"texto": "Charlie Parker", "valor": "Saxofón"},
+      {"texto": "Bill Evans", "valor": "Piano"},
+      {"texto": "Dizzy Gillespie", "valor": "Trompeta"},
+      {"texto": "Charles Mingus", "valor": "Contrabajo"},
+      {"texto": "Art Blakey", "valor": "Batería"},
+      {"texto": "Sonny Rollins", "valor": "Saxofón"},
+      {"texto": "Herbie Hancock", "valor": "Piano"}
+    ]
+  },
+  {
+    "id": 140,
+    "tema": "Guerras Mundiales",
+    "pregunta": "¿Participó este país en la Primera Guerra Mundial?",
+    "tipo": "BOOLEAN",
+    "opciones": [
+      {"texto": "Imperio Otomano", "valor": "✅"},
+      {"texto": "España", "valor": "❌"},
+      {"texto": "Italia", "valor": "✅"},
+      {"texto": "Suiza", "valor": "❌"},
+      {"texto": "Imperio Austrohúngaro", "valor": "✅"},
+      {"texto": "Países Bajos", "valor": "❌"},
+      {"texto": "Japón", "valor": "✅"},
+      {"texto": "Suecia", "valor": "❌"},
+      {"texto": "Serbia", "valor": "✅"},
+      {"texto": "Noruega", "valor": "❌"}
+    ]
+  },
+  {
+    "id": 141,
+    "tema": "Vinos y Enología",
+    "pregunta": "¿De qué país es esta región vinícola famosa?",
+    "tipo": "TEXT",
+    "opciones": [
+      {"texto": "Burdeos", "valor": "Francia"},
+      {"texto": "Rioja", "valor": "España"},
+      {"texto": "Toscana", "valor": "Italia"},
+      {"texto": "Napa Valley", "valor": "Estados Unidos"},
+      {"texto": "Mendoza", "valor": "Argentina"},
+      {"texto": "Barossa Valley", "valor": "Australia"},
+      {"texto": "Douro", "valor": "Portugal"},
+      {"texto": "Champagne", "valor": "Francia"},
+      {"texto": "Mosel", "valor": "Alemania"},
+      {"texto": "Stellenbosch", "valor": "Sudáfrica"}
+    ]
+  },
+  {
+    "id": 142,
+    "tema": "Botánica",
+    "pregunta": "¿Es esta planta una gimnosperma (semilla desnuda)?",
+    "tipo": "BOOLEAN",
+    "opciones": [
+      {"texto": "Pino", "valor": "✅"},
+      {"texto": "Rosal", "valor": "❌"},
+      {"texto": "Abeto", "valor": "✅"},
+      {"texto": "Manzano", "valor": "❌"},
+      {"texto": "Ciprés", "valor": "✅"},
+      {"texto": "Tulipán", "valor": "❌"},
+      {"texto": "Secuoya", "valor": "✅"},
+      {"texto": "Orquídea", "valor": "❌"},
+      {"texto": "Ginkgo biloba", "valor": "✅"},
+      {"texto": "Girasol", "valor": "❌"}
+    ]
+  },
+  {
+    "id": 143,
+    "tema": "Exploración Espacial",
+    "pregunta": "Ordena estas misiones espaciales por fecha de lanzamiento (1 = Primera)",
+    "tipo": "ORDER",
+    "opciones": [
+      {"texto": "Sputnik 1", "valor": 1},
+      {"texto": "Vostok 1 (Gagarin)", "valor": 2},
+      {"texto": "Apollo 11 (Luna)", "valor": 3},
+      {"texto": "Skylab", "valor": 4},
+      {"texto": "Voyager 1", "valor": 5},
+      {"texto": "Transbordador Columbia", "valor": 6},
+      {"texto": "Hubble (telescopio)", "valor": 7},
+      {"texto": "ISS (inicio)", "valor": 8},
+      {"texto": "Mars Rover Spirit", "valor": 9},
+      {"texto": "New Horizons (Plutón)", "valor": 10}
+    ]
+  },
+  {
+    "id": 144,
+    "tema": "Fotografía",
+    "pregunta": "¿Quién es este fotógrafo famoso?",
+    "tipo": "TEXT",
+    "opciones": [
+      {"texto": "Foto del Che Guevara (icónica)", "valor": "Korda"},
+      {"texto": "Niña afgana ojos verdes", "valor": "McCurry"},
+      {"texto": "Beso en Times Square", "valor": "Eisenstaedt"},
+      {"texto": "Migrant Mother", "valor": "Lange"},
+      {"texto": "Guerrillero Heroico", "valor": "Korda"},
+      {"texto": "Cartier-Bresson", "valor": "Cartier-Bresson"},
+      {"texto": "El beso del Ayuntamiento", "valor": "Doisneau"},
+      {"texto": "Marilyn Monroe (vestido)", "valor": "Shaw"},
+      {"texto": "Tanque plaza Tiananmén", "valor": "Widener"},
+      {"texto": "Napalm Girl Vietnam", "valor": "Ut"}
+    ]
+  },
+  {
+    "id": 145,
+    "tema": "Teoría Musical",
+    "pregunta": "¿Cuántas teclas tiene un piano de cola estándar?",
+    "tipo": "NUMBER",
+    "opciones": [
+      {"texto": "Piano de cola estándar", "valor": 88},
+      {"texto": "Guitarra española", "valor": 6},
+      {"texto": "Notas en una octava", "valor": 12},
+      {"texto": "Cuerdas de un violín", "valor": 4},
+      {"texto": "Trastes típicos guitarra", "valor": 22},
+      {"texto": "Cuerdas de un bajo", "valor": 4},
+      {"texto": "Válvulas de una trompeta", "valor": 3},
+      {"texto": "Agujeros flauta dulce", "valor": 8},
+      {"texto": "Pedales de un arpa", "valor": 7},
+      {"texto": "Teclas blancas del piano", "valor": 52}
+    ]
+  },
+  {
+    "id": 146,
+    "tema": "Psicología",
+    "pregunta": "¿Quién desarrolló esta teoría o concepto psicológico?",
+    "tipo": "TEXT",
+    "opciones": [
+      {"texto": "Psicoanálisis", "valor": "Freud"},
+      {"texto": "Condicionamiento clásico", "valor": "Pavlov"},
+      {"texto": "Jerarquía de necesidades", "valor": "Maslow"},
+      {"texto": "Desarrollo cognitivo infantil", "valor": "Piaget"},
+      {"texto": "Condicionamiento operante", "valor": "Skinner"},
+      {"texto": "Psicología analítica", "valor": "Jung"},
+      {"texto": "Conductismo", "valor": "Watson"},
+      {"texto": "Inteligencia emocional", "valor": "Goleman"},
+      {"texto": "Flujo (Flow)", "valor": "Csikszentmihalyi"},
+      {"texto": "Teoría del apego", "valor": "Bowlby"}
+    ]
+  },
+  {
+    "id": 147,
+    "tema": "Cosmología",
+    "pregunta": "¿Es esta una teoría o concepto cosmológico actual?",
+    "tipo": "BOOLEAN",
+    "opciones": [
+      {"texto": "Big Bang", "valor": "✅"},
+      {"texto": "Éter luminífero", "valor": "❌"},
+      {"texto": "Energía oscura", "valor": "✅"},
+      {"texto": "Geocentrismo", "valor": "❌"},
+      {"texto": "Materia oscura", "valor": "✅"},
+      {"texto": "Generación espontánea", "valor": "❌"},
+      {"texto": "Inflación cósmica", "valor": "✅"},
+      {"texto": "Flogisto", "valor": "❌"},
+      {"texto": "Radiación de fondo", "valor": "✅"},
+      {"texto": "Teoría del calórico", "valor": "❌"}
+    ]
+  },
+  {
+    "id": 148,
+    "tema": "Ballet Clásico",
+    "pregunta": "¿Quién compuso la música de este ballet?",
+    "tipo": "TEXT",
+    "opciones": [
+      {"texto": "El Cascanueces", "valor": "Tchaikovsky"},
+      {"texto": "El lago de los cisnes", "valor": "Tchaikovsky"},
+      {"texto": "La consagración de la primavera", "valor": "Stravinsky"},
+      {"texto": "Giselle", "valor": "Adam"},
+      {"texto": "Don Quijote", "valor": "Minkus"},
+      {"texto": "La Bella Durmiente", "valor": "Tchaikovsky"},
+      {"texto": "Coppélia", "valor": "Delibes"},
+      {"texto": "Romeo y Julieta", "valor": "Prokofiev"},
+      {"texto": "Petrushka", "valor": "Stravinsky"},
+      {"texto": "Espartaco", "valor": "Khachaturian"}
+    ]
+  },
+  {
+    "id": 149,
+    "tema": "Energías Renovables",
+    "pregunta": "Ordena estos países por capacidad instalada de energía solar (1 = Mayor)",
+    "tipo": "ORDER",
+    "opciones": [
+      {"texto": "China", "valor": 1},
+      {"texto": "Estados Unidos", "valor": 2},
+      {"texto": "Japón", "valor": 3},
+      {"texto": "Alemania", "valor": 4},
+      {"texto": "India", "valor": 5},
+      {"texto": "Italia", "valor": 6},
+      {"texto": "Reino Unido", "valor": 7},
+      {"texto": "Australia", "valor": 8},
+      {"texto": "España", "valor": 9},
+      {"texto": "Francia", "valor": 10}
+    ]
+  },
+  {
+    "id": 150,
+    "tema": "Cultura Digital",
+    "pregunta": "¿En qué año se fundó esta plataforma/empresa tecnológica?",
+    "tipo": "NUMBER",
+    "opciones": [
+      {"texto": "Google", "valor": 1998},
+      {"texto": "Amazon", "valor": 1994},
+      {"texto": "Facebook", "valor": 2004},
+      {"texto": "Twitter", "valor": 2006},
+      {"texto": "YouTube", "valor": 2005},
+      {"texto": "Netflix", "valor": 1997},
+      {"texto": "Spotify", "valor": 2006},
+      {"texto": "Instagram", "valor": 2010},
+      {"texto": "TikTok", "valor": 2016},
+      {"texto": "Uber", "valor": 2009}
+    ]
+  },
+  {
+    "id": 151,
+    "tema": "Series de TV",
+    "pregunta": "¿De qué país es originalmente esta serie de televisión?",
+    "tipo": "TEXT",
+    "opciones": [
+      {"texto": "La Casa de Papel", "valor": "España"},
+      {"texto": "Dark", "valor": "Alemania"},
+      {"texto": "Squid Game", "valor": "Corea"},
+      {"texto": "Peaky Blinders", "valor": "Reino Unido"},
+      {"texto": "Narcos", "valor": "Estados Unidos"},
+      {"texto": "Chernobyl", "valor": "Reino Unido"},
+      {"texto": "Elite", "valor": "España"},
+      {"texto": "The Crown", "valor": "Reino Unido"},
+      {"texto": "Lupin", "valor": "Francia"},
+      {"texto": "Vikings", "valor": "Canadá"}
+    ]
+  },
+  {
+    "id": 152,
+    "tema": "Superhéroes",
+    "pregunta": "¿A qué universo pertenece este superhéroe/villano?",
+    "tipo": "TEXT",
+    "opciones": [
+      {"texto": "Thanos", "valor": "Marvel"},
+      {"texto": "Joker", "valor": "DC"},
+      {"texto": "Deadpool", "valor": "Marvel"},
+      {"texto": "Harley Quinn", "valor": "DC"},
+      {"texto": "Loki", "valor": "Marvel"},
+      {"texto": "Lex Luthor", "valor": "DC"},
+      {"texto": "Doctor Strange", "valor": "Marvel"},
+      {"texto": "Aquaman", "valor": "DC"},
+      {"texto": "Scarlet Witch", "valor": "Marvel"},
+      {"texto": "Catwoman", "valor": "DC"}
+    ]
+  },
+  {
+    "id": 153,
+    "tema": "Cocina Internacional",
+    "pregunta": "¿Es este plato típico de la cocina asiática?",
+    "tipo": "BOOLEAN",
+    "opciones": [
+      {"texto": "Ramen", "valor": "✅"},
+      {"texto": "Gazpacho", "valor": "❌"},
+      {"texto": "Dim Sum", "valor": "✅"},
+      {"texto": "Risotto", "valor": "❌"},
+      {"texto": "Pad Thai", "valor": "✅"},
+      {"texto": "Bouillabaisse", "valor": "❌"},
+      {"texto": "Pho", "valor": "✅"},
+      {"texto": "Cassoulet", "valor": "❌"},
+      {"texto": "Tempura", "valor": "✅"},
+      {"texto": "Goulash", "valor": "❌"}
+    ]
+  },
+  {
+    "id": 154,
+    "tema": "Ríos del Mundo",
+    "pregunta": "¿Por qué continente fluye principalmente este río?",
+    "tipo": "TEXT",
+    "opciones": [
+      {"texto": "Amazonas", "valor": "América"},
+      {"texto": "Nilo", "valor": "África"},
+      {"texto": "Yangtsé", "valor": "Asia"},
+      {"texto": "Misisipi", "valor": "América"},
+      {"texto": "Congo", "valor": "África"},
+      {"texto": "Ganges", "valor": "Asia"},
+      {"texto": "Danubio", "valor": "Europa"},
+      {"texto": "Níger", "valor": "África"},
+      {"texto": "Mekong", "valor": "Asia"},
+      {"texto": "Rin", "valor": "Europa"}
+    ]
+  },
+  {
+    "id": 155,
+    "tema": "Marcas de Moda",
+    "pregunta": "¿De qué país es esta marca de moda?",
+    "tipo": "TEXT",
+    "opciones": [
+      {"texto": "Chanel", "valor": "Francia"},
+      {"texto": "Gucci", "valor": "Italia"},
+      {"texto": "Zara", "valor": "España"},
+      {"texto": "H&M", "valor": "Suecia"},
+      {"texto": "Prada", "valor": "Italia"},
+      {"texto": "Louis Vuitton", "valor": "Francia"},
+      {"texto": "Burberry", "valor": "Reino Unido"},
+      {"texto": "Versace", "valor": "Italia"},
+      {"texto": "Calvin Klein", "valor": "Estados Unidos"},
+      {"texto": "Dior", "valor": "Francia"}
+    ]
+  },
+  {
+    "id": 156,
+    "tema": "Instrumentos Musicales",
+    "pregunta": "¿Es este un instrumento de viento?",
+    "tipo": "BOOLEAN",
+    "opciones": [
+      {"texto": "Flauta", "valor": "✅"},
+      {"texto": "Violín", "valor": "❌"},
+      {"texto": "Trompeta", "valor": "✅"},
+      {"texto": "Piano", "valor": "❌"},
+      {"texto": "Clarinete", "valor": "✅"},
+      {"texto": "Guitarra", "valor": "❌"},
+      {"texto": "Saxofón", "valor": "✅"},
+      {"texto": "Batería", "valor": "❌"},
+      {"texto": "Oboe", "valor": "✅"},
+      {"texto": "Arpa", "valor": "❌"}
+    ]
+  },
+  {
+    "id": 157,
+    "tema": "Fútbol Internacional",
+    "pregunta": "¿En qué país juega principalmente este futbolista?",
+    "tipo": "TEXT",
+    "opciones": [
+      {"texto": "Cristiano Ronaldo (2024)", "valor": "Arabia Saudí"},
+      {"texto": "Lionel Messi (2024)", "valor": "Estados Unidos"},
+      {"texto": "Kylian Mbappé", "valor": "Francia"},
+      {"texto": "Erling Haaland", "valor": "Inglaterra"},
+      {"texto": "Neymar Jr. (2024)", "valor": "Arabia Saudí"},
+      {"texto": "Luka Modrić", "valor": "España"},
+      {"texto": "Kevin De Bruyne", "valor": "Inglaterra"},
+      {"texto": "Robert Lewandowski", "valor": "España"},
+      {"texto": "Mohamed Salah", "valor": "Inglaterra"},
+      {"texto": "Harry Kane", "valor": "Alemania"}
+    ]
+  },
+  {
+    "id": 158,
+    "tema": "Animales Salvajes",
+    "pregunta": "¿En qué continente vive naturalmente este animal?",
+    "tipo": "TEXT",
+    "opciones": [
+      {"texto": "Jaguar", "valor": "América"},
+      {"texto": "Tigre de Bengala", "valor": "Asia"},
+      {"texto": "Ñu", "valor": "África"},
+      {"texto": "Oso Grizzly", "valor": "América"},
+      {"texto": "Orangután", "valor": "Asia"},
+      {"texto": "Lémur", "valor": "África"},
+      {"texto": "Puma", "valor": "América"},
+      {"texto": "Rinoceronte blanco", "valor": "África"},
+      {"texto": "Koala", "valor": "Oceanía"},
+      {"texto": "Lobo ibérico", "valor": "Europa"}
+    ]
+  },
+  {
+    "id": 159,
+    "tema": "Récords Mundiales",
+    "pregunta": "¿Es este un récord mundial actual?",
+    "tipo": "BOOLEAN",
+    "opciones": [
+      {"texto": "100m: Usain Bolt (9.58s)", "valor": "✅"},
+      {"texto": "Maratón: Eliud Kipchoge (1:59)", "valor": "❌"},
+      {"texto": "Edificio más alto: Burj Khalifa", "valor": "✅"},
+      {"texto": "Persona más alta: 3 metros", "valor": "❌"},
+      {"texto": "Velocidad: Guepardo 120 km/h", "valor": "✅"},
+      {"texto": "Montaña más alta: K2", "valor": "❌"},
+      {"texto": "Animal más grande: Ballena azul", "valor": "✅"},
+      {"texto": "País más poblado: India (2026)", "valor": "✅"},
+      {"texto": "Océano más profundo: Atlántico", "valor": "❌"},
+      {"texto": "Río más largo: Amazonas", "valor": "❌"}
+    ]
+  },
+  {
+    "id": 160,
+    "tema": "Videojuegos Clásicos",
+    "pregunta": "¿En qué década se lanzó originalmente este videojuego?",
+    "tipo": "NUMBER",
+    "opciones": [
+      {"texto": "Pac-Man", "valor": 80},
+      {"texto": "Super Mario Bros", "valor": 80},
+      {"texto": "Tetris", "valor": 80},
+      {"texto": "The Legend of Zelda", "valor": 80},
+      {"texto": "Sonic", "valor": 90},
+      {"texto": "Doom", "valor": 90},
+      {"texto": "Final Fantasy VII", "valor": 90},
+      {"texto": "Pong", "valor": 70},
+      {"texto": "Space Invaders", "valor": 70},
+      {"texto": "Street Fighter II", "valor": 90}
+    ]
+  },
+  {
+    "id": 161,
+    "tema": "Pintores Famosos",
+    "pregunta": "¿De qué siglo es principalmente este pintor?",
+    "tipo": "NUMBER",
+    "opciones": [
+      {"texto": "Pablo Picasso", "valor": 20},
+      {"texto": "Leonardo da Vinci", "valor": 15},
+      {"texto": "Vincent van Gogh", "valor": 19},
+      {"texto": "Diego Velázquez", "valor": 17},
+      {"texto": "Claude Monet", "valor": 19},
+      {"texto": "Salvador Dalí", "valor": 20},
+      {"texto": "Rembrandt", "valor": 17},
+      {"texto": "Frida Kahlo", "valor": 20},
+      {"texto": "Francisco de Goya", "valor": 18},
+      {"texto": "Andy Warhol", "valor": 20}
+    ]
+  },
+  {
+    "id": 162,
+    "tema": "Elementos Químicos",
+    "pregunta": "¿Es este elemento un metal?",
+    "tipo": "BOOLEAN",
+    "opciones": [
+      {"texto": "Litio", "valor": "✅"},
+      {"texto": "Azufre", "valor": "❌"},
+      {"texto": "Titanio", "valor": "✅"},
+      {"texto": "Fósforo", "valor": "❌"},
+      {"texto": "Zinc", "valor": "✅"},
+      {"texto": "Silicio", "valor": "❌"},
+      {"texto": "Níquel", "valor": "✅"},
+      {"texto": "Neón", "valor": "❌"},
+      {"texto": "Cromo", "valor": "✅"},
+      {"texto": "Cloro", "valor": "❌"}
+    ]
+  },
+  {
+    "id": 163,
+    "tema": "Bandas de Rock",
+    "pregunta": "¿De qué década es principalmente esta banda de rock?",
+    "tipo": "NUMBER",
+    "opciones": [
+      {"texto": "The Beatles", "valor": 60},
+      {"texto": "Led Zeppelin", "valor": 70},
+      {"texto": "Queen", "valor": 70},
+      {"texto": "Nirvana", "valor": 90},
+      {"texto": "Pink Floyd", "valor": 70},
+      {"texto": "The Rolling Stones", "valor": 60},
+      {"texto": "Metallica", "valor": 80},
+      {"texto": "AC/DC", "valor": 70},
+      {"texto": "Guns N' Roses", "valor": 80},
+      {"texto": "Radiohead", "valor": 90}
+    ]
+  },
+  {
+    "id": 164,
+    "tema": "Maravillas Modernas",
+    "pregunta": "¿Es esta una de las 7 Maravillas del Mundo Moderno (2007)?",
+    "tipo": "BOOLEAN",
+    "opciones": [
+      {"texto": "Gran Muralla China", "valor": "✅"},
+      {"texto": "Torre Eiffel", "valor": "❌"},
+      {"texto": "Petra (Jordania)", "valor": "✅"},
+      {"texto": "Estatua de la Libertad", "valor": "❌"},
+      {"texto": "Cristo Redentor", "valor": "✅"},
+      {"texto": "Big Ben", "valor": "❌"},
+      {"texto": "Machu Picchu", "valor": "✅"},
+      {"texto": "Pirámides de Giza", "valor": "❌"},
+      {"texto": "Chichén Itzá", "valor": "✅"},
+      {"texto": "Acrópolis de Atenas", "valor": "❌"}
+    ]
+  },
+  {
+    "id": 165,
+    "tema": "Constelaciones",
+    "pregunta": "¿Es esta una constelación del zodiaco?",
+    "tipo": "BOOLEAN",
+    "opciones": [
+      {"texto": "Aries", "valor": "✅"},
+      {"texto": "Osa Mayor", "valor": "❌"},
+      {"texto": "Escorpio", "valor": "✅"},
+      {"texto": "Orión", "valor": "❌"},
+      {"texto": "Tauro", "valor": "✅"},
+      {"texto": "Casiopea", "valor": "❌"},
+      {"texto": "Géminis", "valor": "✅"},
+      {"texto": "Andrómeda", "valor": "❌"},
+      {"texto": "Leo", "valor": "✅"},
+      {"texto": "Pegaso", "valor": "❌"}
+    ]
+  },
+  {
+    "id": 166,
+    "tema": "Premios Oscar",
+    "pregunta": "¿Cuántos Óscars ganó esta película?",
+    "tipo": "NUMBER",
+    "opciones": [
+      {"texto": "Titanic", "valor": 11},
+      {"texto": "El Señor de los Anillos: Retorno del Rey", "valor": 11},
+      {"texto": "Ben-Hur", "valor": 11},
+      {"texto": "Avatar", "valor": 3},
+      {"texto": "Gladiator", "valor": 5},
+      {"texto": "Slumdog Millionaire", "valor": 8},
+      {"texto": "Gravity", "valor": 7},
+      {"texto": "Birdman", "valor": 4},
+      {"texto": "Parasite", "valor": 4},
+      {"texto": "La La Land", "valor": 6}
+    ]
+  },
+  {
+    "id": 167,
+    "tema": "Desiertos",
+    "pregunta": "¿En qué continente se encuentra este desierto?",
+    "tipo": "TEXT",
+    "opciones": [
+      {"texto": "Sahara", "valor": "África"},
+      {"texto": "Gobi", "valor": "Asia"},
+      {"texto": "Atacama", "valor": "América"},
+      {"texto": "Kalahari", "valor": "África"},
+      {"texto": "Mojave", "valor": "América"},
+      {"texto": "Thar", "valor": "Asia"},
+      {"texto": "Gran Desierto Arenoso", "valor": "Oceanía"},
+      {"texto": "Namib", "valor": "África"},
+      {"texto": "Sonora", "valor": "América"},
+      {"texto": "Karakum", "valor": "Asia"}
+    ]
+  },
+  {
+    "id": 168,
+    "tema": "Harry Potter",
+    "pregunta": "¿En qué orden se publicaron estos libros de Harry Potter? (1 = Primero)",
+    "tipo": "ORDER",
+    "opciones": [
+      {"texto": "La Piedra Filosofal", "valor": 1},
+      {"texto": "La Cámara Secreta", "valor": 2},
+      {"texto": "El Prisionero de Azkaban", "valor": 3},
+      {"texto": "El Cáliz de Fuego", "valor": 4},
+      {"texto": "La Orden del Fénix", "valor": 5},
+      {"texto": "El Misterio del Príncipe", "valor": 6},
+      {"texto": "Las Reliquias de la Muerte", "valor": 7},
+      {"texto": "Animales Fantásticos (libro)", "valor": 8},
+      {"texto": "Quidditch a través de los tiempos", "valor": 9},
+      {"texto": "Los cuentos de Beedle el Bardo", "valor": 10}
+    ]
+  },
+  {
+    "id": 169,
+    "tema": "Inventos del Siglo XX",
+    "pregunta": "¿Se inventó esto en el siglo XX?",
+    "tipo": "BOOLEAN",
+    "opciones": [
+      {"texto": "Avión", "valor": "✅"},
+      {"texto": "Telégrafo", "valor": "❌"},
+      {"texto": "Televisión", "valor": "✅"},
+      {"texto": "Teléfono", "valor": "❌"},
+      {"texto": "Internet", "valor": "✅"},
+      {"texto": "Bombilla", "valor": "❌"},
+      {"texto": "Ordenador", "valor": "✅"},
+      {"texto": "Radio", "valor": "❌"},
+      {"texto": "Microondas", "valor": "✅"},
+      {"texto": "Fotografía", "valor": "❌"}
+    ]
+  },
+  {
+    "id": 170,
+    "tema": "Capitales Europeas",
+    "pregunta": "¿Cuál es la capital?",
+    "tipo": "TEXT",
+    "opciones": [
+      {"texto": "Alemania", "valor": "Berlín"},
+      {"texto": "Polonia", "valor": "Varsovia"},
+      {"texto": "Grecia", "valor": "Atenas"},
+      {"texto": "Países Bajos", "valor": "Ámsterdam"},
+      {"texto": "Austria", "valor": "Viena"},
+      {"texto": "Bélgica", "valor": "Bruselas"},
+      {"texto": "República Checa", "valor": "Praga"},
+      {"texto": "Rumanía", "valor": "Bucarest"},
+      {"texto": "Hungría", "valor": "Budapest"},
+      {"texto": "Bulgaria", "valor": "Sofía"}
+    ]
+  },
+  {
+    "id": 171,
+    "tema": "Ajedrez",
+    "pregunta": "¿Cuántas piezas de este tipo hay en un tablero de ajedrez al inicio?",
+    "tipo": "NUMBER",
+    "opciones": [
+      {"texto": "Peones", "valor": 16},
+      {"texto": "Torres", "valor": 4},
+      {"texto": "Caballos", "valor": 4},
+      {"texto": "Alfiles", "valor": 4},
+      {"texto": "Reinas", "valor": 2},
+      {"texto": "Reyes", "valor": 2},
+      {"texto": "Total piezas blancas", "valor": 16},
+      {"texto": "Total piezas negras", "valor": 16},
+      {"texto": "Total piezas", "valor": 32},
+      {"texto": "Casillas del tablero", "valor": 64}
+    ]
+  },
+  {
+    "id": 172,
+    "tema": "Dinosaurios",
+    "pregunta": "¿Era este dinosaurio carnívoro?",
+    "tipo": "BOOLEAN",
+    "opciones": [
+      {"texto": "Tyrannosaurus Rex", "valor": "✅"},
+      {"texto": "Triceratops", "valor": "❌"},
+      {"texto": "Velociraptor", "valor": "✅"},
+      {"texto": "Brachiosaurus", "valor": "❌"},
+      {"texto": "Spinosaurus", "valor": "✅"},
+      {"texto": "Stegosaurus", "valor": "❌"},
+      {"texto": "Allosaurus", "valor": "✅"},
+      {"texto": "Diplodocus", "valor": "❌"},
+      {"texto": "Carnotaurus", "valor": "✅"},
+      {"texto": "Ankylosaurus", "valor": "❌"}
+    ]
+  },
+  {
+    "id": 173,
+    "tema": "Festivales Mundiales",
+    "pregunta": "¿En qué país se celebra este festival?",
+    "tipo": "TEXT",
+    "opciones": [
+      {"texto": "Oktoberfest", "valor": "Alemania"},
+      {"texto": "Carnaval de Río", "valor": "Brasil"},
+      {"texto": "La Tomatina", "valor": "España"},
+      {"texto": "Día de Muertos", "valor": "México"},
+      {"texto": "Festival de Holi", "valor": "India"},
+      {"texto": "Mardi Gras", "valor": "Estados Unidos"},
+      {"texto": "Festival de Luz (Diwali)", "valor": "India"},
+      {"texto": "San Fermín", "valor": "España"},
+      {"texto": "Año Nuevo Chino", "valor": "China"},
+      {"texto": "Festival de Cannes", "valor": "Francia"}
+    ]
+  },
+  {
+    "id": 174,
+    "tema": "Volcanes",
+    "pregunta": "¿Está este volcán actualmente activo?",
+    "tipo": "BOOLEAN",
+    "opciones": [
+      {"texto": "Monte Vesubio", "valor": "✅"},
+      {"texto": "Kilimanjaro", "valor": "❌"},
+      {"texto": "Etna", "valor": "✅"},
+      {"texto": "Mauna Kea", "valor": "❌"},
+      {"texto": "Krakatoa", "valor": "✅"},
+      {"texto": "Fujiyama", "valor": "✅"},
+      {"texto": "Teide", "valor": "❌"},
+      {"texto": "Popocatépetl", "valor": "✅"},
+      {"texto": "Monte Shasta", "valor": "❌"},
+      {"texto": "Villarrica", "valor": "✅"}
+    ]
+  },
+  {
+    "id": 175,
+    "tema": "Saga Marvel (MCU)",
+    "pregunta": "Ordena estas películas de Marvel por orden de estreno (1 = Primera)",
+    "tipo": "ORDER",
+    "opciones": [
+      {"texto": "Iron Man", "valor": 1},
+      {"texto": "The Avengers", "valor": 2},
+      {"texto": "Guardianes de la Galaxia", "valor": 3},
+      {"texto": "Capitán América: Civil War", "valor": 4},
+      {"texto": "Doctor Strange", "valor": 5},
+      {"texto": "Thor: Ragnarok", "valor": 6},
+      {"texto": "Black Panther", "valor": 7},
+      {"texto": "Avengers: Infinity War", "valor": 8},
+      {"texto": "Avengers: Endgame", "valor": 9},
+      {"texto": "Spider-Man: No Way Home", "valor": 10}
+    ]
+  },
+  {
+    "id": 176,
+    "tema": "Islas del Mundo",
+    "pregunta": "¿A qué país pertenece esta isla?",
+    "tipo": "TEXT",
+    "opciones": [
+      {"texto": "Sicilia", "valor": "Italia"},
+      {"texto": "Creta", "valor": "Grecia"},
+      {"texto": "Tasmania", "valor": "Australia"},
+      {"texto": "Bali", "valor": "Indonesia"},
+      {"texto": "Cerdeña", "valor": "Italia"},
+      {"texto": "Corfú", "valor": "Grecia"},
+      {"texto": "Madeira", "valor": "Portugal"},
+      {"texto": "Mallorca", "valor": "España"},
+      {"texto": "Islandia", "valor": "Islandia"},
+      {"texto": "Java", "valor": "Indonesia"}
+    ]
+  },
+  {
+    "id": 177,
+    "tema": "Premios Grammy",
+    "pregunta": "¿Ha ganado este artista algún Grammy?",
+    "tipo": "BOOLEAN",
+    "opciones": [
+      {"texto": "Billie Eilish", "valor": "✅"},
+      {"texto": "BTS", "valor": "❌"},
+      {"texto": "Dua Lipa", "valor": "✅"},
+      {"texto": "The Weeknd", "valor": "✅"},
+      {"texto": "Nicki Minaj", "valor": "❌"},
+      {"texto": "John Legend", "valor": "✅"},
+      {"texto": "Miley Cyrus", "valor": "❌"},
+      {"texto": "Sam Smith", "valor": "✅"},
+      {"texto": "Katy Perry", "valor": "❌"},
+      {"texto": "Alicia Keys", "valor": "✅"}
+    ]
+  },
+  {
+    "id": 178,
+    "tema": "El Espacio",
+    "pregunta": "¿Cuántos planetas enanos reconoce actualmente la UAI en el Sistema Solar?",
+    "tipo": "NUMBER",
+    "opciones": [
+      {"texto": "Planetas enanos oficiales", "valor": 5},
+      {"texto": "Planetas del Sistema Solar", "valor": 8},
+      {"texto": "Lunas de Júpiter (Galileanas)", "valor": 4},
+      {"texto": "Cinturones principales", "valor": 2},
+      {"texto": "Gigantes gaseosos", "valor": 4},
+      {"texto": "Planetas rocosos", "valor": 4},
+      {"texto": "Planetas con anillos", "valor": 4},
+      {"texto": "Años luz a Próxima Centauri", "valor": 4},
+      {"texto": "Minutos luz al Sol", "valor": 8},
+      {"texto": "Fases de la Luna", "valor": 8}
+    ]
+  },
+  {
+    "id": 179,
+    "tema": "Frutas Tropicales",
+    "pregunta": "¿Es esta una fruta tropical?",
+    "tipo": "BOOLEAN",
+    "opciones": [
+      {"texto": "Mango", "valor": "✅"},
+      {"texto": "Manzana", "valor": "❌"},
+      {"texto": "Papaya", "valor": "✅"},
+      {"texto": "Pera", "valor": "❌"},
+      {"texto": "Piña", "valor": "✅"},
+      {"texto": "Fresa", "valor": "❌"},
+      {"texto": "Maracuyá", "valor": "✅"},
+      {"texto": "Ciruela", "valor": "❌"},
+      {"texto": "Guayaba", "valor": "✅"},
+      {"texto": "Cereza", "valor": "❌"}
+    ]
+  },
+  {
+    "id": 180,
+    "tema": "Escritores Españoles",
+    "pregunta": "¿De qué siglo es principalmente este escritor español?",
+    "tipo": "NUMBER",
+    "opciones": [
+      {"texto": "Miguel de Cervantes", "valor": 16},
+      {"texto": "Lope de Vega", "valor": 16},
+      {"texto": "Calderón de la Barca", "valor": 17},
+      {"texto": "Benito Pérez Galdós", "valor": 19},
+      {"texto": "Federico García Lorca", "valor": 20},
+      {"texto": "Miguel de Unamuno", "valor": 20},
+      {"texto": "Antonio Machado", "valor": 20},
+      {"texto": "Francisco de Quevedo", "valor": 17},
+      {"texto": "Gustavo Adolfo Bécquer", "valor": 19},
+      {"texto": "Camilo José Cela", "valor": 20}
+    ]
+  },
+  {
+    "id": 181,
+    "tema": "Lenguas Oficiales",
+    "pregunta": "¿Es este un idioma oficial de este país?",
+    "tipo": "BOOLEAN",
+    "opciones": [
+      {"texto": "Francés en Canadá", "valor": "✅"},
+      {"texto": "Español en Brasil", "valor": "❌"},
+      {"texto": "Alemán en Suiza", "valor": "✅"},
+      {"texto": "Inglés en Holanda", "valor": "❌"},
+      {"texto": "Árabe en Israel", "valor": "✅"},
+      {"texto": "Portugués en España", "valor": "❌"},
+      {"texto": "Hindi en India", "valor": "✅"},
+      {"texto": "Mandarín en Japón", "valor": "❌"},
+      {"texto": "Suajili en Kenia", "valor": "✅"},
+      {"texto": "Ruso en China", "valor": "❌"}
+    ]
+  },
+  {
+    "id": 182,
+    "tema": "Juegos de Mesa",
+    "pregunta": "¿Cuántos jugadores pueden jugar como máximo en este juego?",
+    "tipo": "NUMBER",
+    "opciones": [
+      {"texto": "Ajedrez", "valor": 2},
+      {"texto": "Monopoly (estándar)", "valor": 8},
+      {"texto": "Catan", "valor": 4},
+      {"texto": "Risk", "valor": 6},
+      {"texto": "Scrabble", "valor": 4},
+      {"texto": "Cluedo", "valor": 6},
+      {"texto": "Parchís", "valor": 4},
+      {"texto": "Trivial Pursuit", "valor": 6},
+      {"texto": "UNO", "valor": 10},
+      {"texto": "Damas", "valor": 2}
+    ]
+  },
+  {
+    "id": 183,
+    "tema": "Estaciones Espaciales",
+    "pregunta": "¿Qué país/agencia operó principalmente esta estación espacial?",
+    "tipo": "TEXT",
+    "opciones": [
+      {"texto": "ISS (actual)", "valor": "Internacional"},
+      {"texto": "Mir", "valor": "Rusia"},
+      {"texto": "Skylab", "valor": "Estados Unidos"},
+      {"texto": "Tiangong", "valor": "China"},
+      {"texto": "Salyut 1", "valor": "URSS"},
+      {"texto": "Skylab", "valor": "NASA"},
+      {"texto": "Tiangong-1", "valor": "China"},
+      {"texto": "Salyut 7", "valor": "URSS"},
+      {"texto": "Tiangong-2", "valor": "China"},
+      {"texto": "ISS", "valor": "Multinacional"}
+    ]
+  },
+  {
+    "id": 184,
+    "tema": "Récords Deportivos",
+    "pregunta": "¿En qué deporte se estableció este récord famoso?",
+    "tipo": "TEXT",
+    "opciones": [
+      {"texto": "9.58 segundos en 100m", "valor": "Atletismo"},
+      {"texto": "23 Grand Slams (hombre)", "valor": "Tenis"},
+      {"texto": "8 medallas en unos JJOO", "valor": "Natación"},
+      {"texto": "91 goles en un año", "valor": "Fútbol"},
+      {"texto": "73 home runs en temporada", "valor": "Béisbol"},
+      {"texto": "100 puntos en un partido NBA", "valor": "Baloncesto"},
+      {"texto": "7 Tour de Francia seguidos", "valor": "Ciclismo"},
+      {"texto": "15 Grand Slams consecutivos", "valor": "Golf"},
+      {"texto": "1:59 en maratón", "valor": "Atletismo"},
+      {"texto": "6 Balones de Oro", "valor": "Fútbol"}
+    ]
+  },
+  {
+    "id": 185,
+    "tema": "Café del Mundo",
+    "pregunta": "¿Es este país uno de los mayores productores de café del mundo?",
+    "tipo": "BOOLEAN",
+    "opciones": [
+      {"texto": "Brasil", "valor": "✅"},
+      {"texto": "China", "valor": "❌"},
+      {"texto": "Vietnam", "valor": "✅"},
+      {"texto": "Rusia", "valor": "❌"},
+      {"texto": "Colombia", "valor": "✅"},
+      {"texto": "Francia", "valor": "❌"},
+      {"texto": "Etiopía", "valor": "✅"},
+      {"texto": "Alemania", "valor": "❌"},
+      {"texto": "Indonesia", "valor": "✅"},
+      {"texto": "Japón", "valor": "❌"}
+    ]
+  },
+  {
+    "id": 186,
+    "tema": "Animación Japonesa",
+    "pregunta": "¿Quién es el director/estudio de este anime famoso?",
+    "tipo": "TEXT",
+    "opciones": [
+      {"texto": "Mi Vecino Totoro", "valor": "Miyazaki"},
+      {"texto": "El Viaje de Chihiro", "valor": "Miyazaki"},
+      {"texto": "Akira", "valor": "Otomo"},
+      {"texto": "Your Name", "valor": "Shinkai"},
+      {"texto": "La Princesa Mononoke", "valor": "Miyazaki"},
+      {"texto": "Perfect Blue", "valor": "Kon"},
+      {"texto": "Ghost in the Shell", "valor": "Oshii"},
+      {"texto": "Paprika", "valor": "Kon"},
+      {"texto": "El Castillo Ambulante", "valor": "Miyazaki"},
+      {"texto": "Grave of the Fireflies", "valor": "Takahata"}
+    ]
+  },
+  {
+    "id": 187,
+    "tema": "Lagos del Mundo",
+    "pregunta": "¿En qué continente se encuentra este lago?",
+    "tipo": "TEXT",
+    "opciones": [
+      {"texto": "Lago Superior", "valor": "América"},
+      {"texto": "Lago Victoria", "valor": "África"},
+      {"texto": "Lago Baikal", "valor": "Asia"},
+      {"texto": "Lago Titicaca", "valor": "América"},
+      {"texto": "Lago Tanganica", "valor": "África"},
+      {"texto": "Lago Míchigan", "valor": "América"},
+      {"texto": "Mar Caspio", "valor": "Asia"},
+      {"texto": "Lago Ness", "valor": "Europa"},
+      {"texto": "Lago Malawi", "valor": "África"},
+      {"texto": "Lago Ontario", "valor": "América"}
+    ]
+  },
+  {
+    "id": 188,
+    "tema": "Récords de Taquilla",
+    "pregunta": "Ordena estas películas por recaudación mundial (1 = Mayor)",
+    "tipo": "ORDER",
+    "opciones": [
+      {"texto": "Avatar", "valor": 1},
+      {"texto": "Avengers: Endgame", "valor": 2},
+      {"texto": "Titanic", "valor": 3},
+      {"texto": "Star Wars: El Despertar", "valor": 4},
+      {"texto": "Avengers: Infinity War", "valor": 5},
+      {"texto": "Jurassic World", "valor": 6},
+      {"texto": "El Rey León (2019)", "valor": 7},
+      {"texto": "Los Vengadores", "valor": 8},
+      {"texto": "Furious 7", "valor": 9},
+      {"texto": "Frozen II", "valor": 10}
+    ]
+  },
+  {
+    "id": 189,
+    "tema": "Monedas Antiguas",
+    "pregunta": "¿Usó este país el euro desde su introducción en 2002?",
+    "tipo": "BOOLEAN",
+    "opciones": [
+      {"texto": "Alemania", "valor": "✅"},
+      {"texto": "Reino Unido", "valor": "❌"},
+      {"texto": "España", "valor": "✅"},
+      {"texto": "Suecia", "valor": "❌"},
+      {"texto": "Italia", "valor": "✅"},
+      {"texto": "Dinamarca", "valor": "❌"},
+      {"texto": "Francia", "valor": "✅"},
+      {"texto": "Polonia", "valor": "❌"},
+      {"texto": "Portugal", "valor": "✅"},
+      {"texto": "República Checa", "valor": "❌"}
+    ]
+  },
+  {
+    "id": 190,
+    "tema": "Parques Nacionales",
+    "pregunta": "¿En qué país se encuentra este parque nacional?",
+    "tipo": "TEXT",
+    "opciones": [
+      {"texto": "Yellowstone", "valor": "Estados Unidos"},
+      {"texto": "Kruger", "valor": "Sudáfrica"},
+      {"texto": "Serengeti", "valor": "Tanzania"},
+      {"texto": "Galápagos", "valor": "Ecuador"},
+      {"texto": "Banff", "valor": "Canadá"},
+      {"texto": "Timanfaya", "valor": "España"},
+      {"texto": "Kakadu", "valor": "Australia"},
+      {"texto": "Torres del Paine", "valor": "Chile"},
+      {"texto": "Fiordland", "valor": "Nueva Zelanda"},
+      {"texto": "Plitvice", "valor": "Croacia"}
+    ]
+  },
+  {
+    "id": 191,
+    "tema": "Razas de Perros",
+    "pregunta": "¿De qué país es originaria esta raza de perro?",
+    "tipo": "TEXT",
+    "opciones": [
+      {"texto": "Chihuahua", "valor": "México"},
+      {"texto": "Husky Siberiano", "valor": "Rusia"},
+      {"texto": "Pastor Alemán", "valor": "Alemania"},
+      {"texto": "Dálmata", "valor": "Croacia"},
+      {"texto": "Akita", "valor": "Japón"},
+      {"texto": "Bulldog Inglés", "valor": "Reino Unido"},
+      {"texto": "San Bernardo", "valor": "Suiza"},
+      {"texto": "Labrador", "valor": "Canadá"},
+      {"texto": "Corgi", "valor": "Gales"},
+      {"texto": "Doberman", "valor": "Alemania"}
+    ]
+  },
+  {
+    "id": 192,
+    "tema": "Redes Sociales",
+    "pregunta": "Ordena estas redes sociales por número de usuarios activos (1 = Más usuarios)",
+    "tipo": "ORDER",
+    "opciones": [
+      {"texto": "Facebook", "valor": 1},
+      {"texto": "YouTube", "valor": 2},
+      {"texto": "WhatsApp", "valor": 3},
+      {"texto": "Instagram", "valor": 4},
+      {"texto": "TikTok", "valor": 5},
+      {"texto": "WeChat", "valor": 6},
+      {"texto": "Twitter/X", "valor": 7},
+      {"texto": "Telegram", "valor": 8},
+      {"texto": "Snapchat", "valor": 9},
+      {"texto": "Pinterest", "valor": 10}
+    ]
+  },
+  {
+    "id": 193,
+    "tema": "Especies en Peligro",
+    "pregunta": "¿Está esta especie en peligro de extinción?",
+    "tipo": "BOOLEAN",
+    "opciones": [
+      {"texto": "Oso panda gigante", "valor": "✅"},
+      {"texto": "Paloma común", "valor": "❌"},
+      {"texto": "Tigre de Bengala", "valor": "✅"},
+      {"texto": "Rata común", "valor": "❌"},
+      {"texto": "Rinoceronte negro", "valor": "✅"},
+      {"texto": "Mosquito", "valor": "❌"},
+      {"texto": "Gorila de montaña", "valor": "✅"},
+      {"texto": "Gato doméstico", "valor": "❌"},
+      {"texto": "Orangután de Sumatra", "valor": "✅"},
+      {"texto": "Perro", "valor": "❌"}
+    ]
+  },
+  {
+    "id": 194,
+    "tema": "Países y Códigos",
+    "pregunta": "¿Cuál es el código telefónico internacional?",
+    "tipo": "TEXT",
+    "opciones": [
+      {"texto": "España", "valor": "+34"},
+      {"texto": "Estados Unidos", "valor": "+1"},
+      {"texto": "Reino Unido", "valor": "+44"},
+      {"texto": "Francia", "valor": "+33"},
+      {"texto": "Alemania", "valor": "+49"},
+      {"texto": "Italia", "valor": "+39"},
+      {"texto": "México", "valor": "+52"},
+      {"texto": "Argentina", "valor": "+54"},
+      {"texto": "Japón", "valor": "+81"},
+      {"texto": "China", "valor": "+86"}
+    ]
+  },
+  {
+    "id": 195,
+    "tema": "Boxeo",
+    "pregunta": "¿En qué categoría de peso boxeó principalmente este boxeador?",
+    "tipo": "TEXT",
+    "opciones": [
+      {"texto": "Muhammad Ali", "valor": "Pesado"},
+      {"texto": "Mike Tyson", "valor": "Pesado"},
+      {"texto": "Floyd Mayweather", "valor": "Welter"},
+      {"texto": "Manny Pacquiao", "valor": "Welter"},
+      {"texto": "Sugar Ray Leonard", "valor": "Welter"},
+      {"texto": "Rocky Marciano", "valor": "Pesado"},
+      {"texto": "Oscar de la Hoya", "valor": "Welter"},
+      {"texto": "George Foreman", "valor": "Pesado"},
+      {"texto": "Julio César Chávez", "valor": "Ligero"},
+      {"texto": "Joe Louis", "valor": "Pesado"}
+    ]
+  },
+  {
+    "id": 196,
+    "tema": "Universidades",
+    "pregunta": "¿En qué país se encuentra esta universidad famosa?",
+    "tipo": "TEXT",
+    "opciones": [
+      {"texto": "Harvard", "valor": "Estados Unidos"},
+      {"texto": "Oxford", "valor": "Reino Unido"},
+      {"texto": "Sorbona", "valor": "Francia"},
+      {"texto": "Cambridge", "valor": "Reino Unido"},
+      {"texto": "MIT", "valor": "Estados Unidos"},
+      {"texto": "Bolonia", "valor": "Italia"},
+      {"texto": "Heidelberg", "valor": "Alemania"},
+      {"texto": "Yale", "valor": "Estados Unidos"},
+      {"texto": "Salamanca", "valor": "España"},
+      {"texto": "Stanford", "valor": "Estados Unidos"}
+    ]
+  },
+  {
+    "id": 197,
+    "tema": "Récords Naturales",
+    "pregunta": "¿Es este el más grande/profundo/largo de su categoría?",
+    "tipo": "BOOLEAN",
+    "opciones": [
+      {"texto": "Monte Everest (montaña más alta)", "valor": "✅"},
+      {"texto": "Río Amazonas (más largo)", "valor": "❌"},
+      {"texto": "Fosa Marianas (más profunda)", "valor": "✅"},
+      {"texto": "Sahara (desierto más grande)", "valor": "✅"},
+      {"texto": "Lago Baikal (más profundo)", "valor": "✅"},
+      {"texto": "Groenlandia (isla más grande)", "valor": "✅"},
+      {"texto": "K2 (montaña más alta)", "valor": "❌"},
+      {"texto": "Río Nilo (más largo)", "valor": "✅"},
+      {"texto": "Antártida (desierto más grande)", "valor": "✅"},
+      {"texto": "Madagascar (isla más grande)", "valor": "❌"}
+    ]
+  },
+  {
+    "id": 198,
+    "tema": "Civilizaciones Antiguas",
+    "pregunta": "¿En qué continente se desarrolló principalmente esta civilización?",
+    "tipo": "TEXT",
+    "opciones": [
+      {"texto": "Mayas", "valor": "América"},
+      {"texto": "Egipcios", "valor": "África"},
+      {"texto": "Incas", "valor": "América"},
+      {"texto": "Griegos", "valor": "Europa"},
+      {"texto": "Aztecas", "valor": "América"},
+      {"texto": "Romanos", "valor": "Europa"},
+      {"texto": "Persas", "valor": "Asia"},
+      {"texto": "Mesopotamia", "valor": "Asia"},
+      {"texto": "Vikingos", "valor": "Europa"},
+      {"texto": "Chinos", "valor": "Asia"}
+    ]
+  },
+  {
+    "id": 199,
+    "tema": "Plataformas Streaming",
+    "pregunta": "¿Qué plataforma produjo originalmente esta serie?",
+    "tipo": "TEXT",
+    "opciones": [
+      {"texto": "Stranger Things", "valor": "Netflix"},
+      {"texto": "The Mandalorian", "valor": "Disney+"},
+      {"texto": "The Boys", "valor": "Amazon"},
+      {"texto": "House of the Dragon", "valor": "HBO"},
+      {"texto": "The Handmaid's Tale", "valor": "Hulu"},
+      {"texto": "The Crown", "valor": "Netflix"},
+      {"texto": "The Morning Show", "valor": "Apple TV+"},
+      {"texto": "Succession", "valor": "HBO"},
+      {"texto": "The Witcher", "valor": "Netflix"},
+      {"texto": "Only Murders in the Building", "valor": "Hulu"}
+    ]
+  },
+  {
+    "id": 200,
+    "tema": "Instrumentos de Orquesta",
+    "pregunta": "¿A qué sección de la orquesta pertenece este instrumento?",
+    "tipo": "TEXT",
+    "opciones": [
+      {"texto": "Violín", "valor": "Cuerda"},
+      {"texto": "Trompeta", "valor": "Viento-metal"},
+      {"texto": "Flauta", "valor": "Viento-madera"},
+      {"texto": "Timbal", "valor": "Percusión"},
+      {"texto": "Viola", "valor": "Cuerda"},
+      {"texto": "Trombón", "valor": "Viento-metal"},
+      {"texto": "Clarinete", "valor": "Viento-madera"},
+      {"texto": "Xilófono", "valor": "Percusión"},
+      {"texto": "Contrabajo", "valor": "Cuerda"},
+      {"texto": "Tuba", "valor": "Viento-metal"}
     ]
   }
 ]
