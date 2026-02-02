@@ -47,7 +47,16 @@ const QuestionDisplay: React.FC<QuestionDisplayProps> = ({
   const handlePass = (playerId: string) => {
     const playerIndex = players.findIndex(p => p.id === playerId);
     const player = players[playerIndex];
-    if (!player || player.isEliminated || player.hasPassedThisRound) return;
+    if (!player) return;
+    
+    // Si ya está rendido (y no eliminado), reactivarlo
+    if (player.hasPassedThisRound && !player.isEliminated) {
+      onPlayerReactivated(playerId);
+      return;
+    }
+    
+    // Si está eliminado, no puede rendirse
+    if (player.isEliminated) return;
     
     // Solo se puede rendir si es su turno
     if (playerIndex !== currentPlayerIndex) return;
@@ -58,7 +67,16 @@ const QuestionDisplay: React.FC<QuestionDisplayProps> = ({
 
   const handleFail = (playerId: string) => {
     const player = players.find(p => p.id === playerId);
-    if (!player || player.isEliminated || player.hasPassedThisRound) return;
+    if (!player) return;
+    
+    // Si ya está eliminado, reactivarlo
+    if (player.isEliminated) {
+      onPlayerReactivated(playerId);
+      return;
+    }
+    
+    // Si ya está rendido, no puede fallar (debe reactivarse primero)
+    if (player.hasPassedThisRound) return;
     
     // Fallar (cualquier jugador puede fallar en cualquier momento)
     onPlayerEliminated(playerId);
@@ -171,16 +189,26 @@ const QuestionDisplay: React.FC<QuestionDisplayProps> = ({
                 <button
                   className="player-action-btn pass-btn"
                   onClick={() => handlePass(player.id)}
-                  disabled={player.isEliminated || player.hasPassedThisRound || idx !== currentPlayerIndex}
-                  title={idx === currentPlayerIndex ? "Rendirse" : "Solo puedes rendirte en tu turno"}
+                  disabled={player.isEliminated || (idx !== currentPlayerIndex && !player.hasPassedThisRound)}
+                  title={
+                    player.hasPassedThisRound && !player.isEliminated
+                      ? "Reactivar jugador"
+                      : idx === currentPlayerIndex
+                      ? "Rendirse"
+                      : "Solo puedes rendirte en tu turno"
+                  }
                 >
                   🏳️
                 </button>
                 <button
                   className="player-action-btn fail-btn"
                   onClick={() => handleFail(player.id)}
-                  disabled={player.isEliminated || player.hasPassedThisRound}
-                  title="Fallo"
+                  disabled={player.hasPassedThisRound && !player.isEliminated}
+                  title={
+                    player.isEliminated
+                      ? "Reactivar jugador"
+                      : "Fallo"
+                  }
                 >
                   ❌
                 </button>
