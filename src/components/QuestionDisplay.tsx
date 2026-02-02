@@ -44,25 +44,24 @@ const QuestionDisplay: React.FC<QuestionDisplayProps> = ({
     onOptionSelected(optionIndex, currentPlayer.id);
   };
 
-  const handlePlayerClick = (playerId: string) => {
+  const handlePass = (playerId: string) => {
     const playerIndex = players.findIndex(p => p.id === playerId);
     const player = players[playerIndex];
+    if (!player || player.isEliminated || player.hasPassedThisRound) return;
     
-    if (!player) return;
+    // Solo se puede rendir si es su turno
+    if (playerIndex !== currentPlayerIndex) return;
+    
+    // Plantarse
+    onPlayerAction(playerId);
+  };
 
-    // Si el jugador ya está plantado o eliminado, reactivarlo
-    if (player.hasPassedThisRound || player.isEliminated) {
-      onPlayerReactivated(playerId);
-      return;
-    }
-
-    // Si es mi turno → me planto
-    if (playerIndex === currentPlayerIndex) {
-      onPlayerAction(playerId); // Plantarse
-    } else {
-      // Si NO es mi turno → me he equivocado, me elimino
-      onPlayerEliminated(playerId);
-    }
+  const handleFail = (playerId: string) => {
+    const player = players.find(p => p.id === playerId);
+    if (!player || player.isEliminated || player.hasPassedThisRound) return;
+    
+    // Fallar (cualquier jugador puede fallar en cualquier momento)
+    onPlayerEliminated(playerId);
   };
 
   return (
@@ -161,21 +160,30 @@ const QuestionDisplay: React.FC<QuestionDisplayProps> = ({
               } ${player.hasPassedThisRound ? 'passed' : ''} ${
                 idx === currentPlayerIndex ? 'current' : ''
               }`}
-              onClick={() => handlePlayerClick(player.id)}
-              style={{ cursor: 'pointer' }}
-              title={
-                player.isEliminated || player.hasPassedThisRound
-                  ? 'Click para reactivar'
-                  : idx === currentPlayerIndex
-                  ? 'Click para plantarte'
-                  : 'Click si has fallado'
-              }
             >
               <div className={`shape ${player.shape}`} style={{ width: '40px', height: '40px' }}></div>
               <div className="player-info">
                 <span className="player-score">
                   R: {player.roundScore} | T: {player.score}
                 </span>
+              </div>
+              <div className="player-actions">
+                <button
+                  className="player-action-btn pass-btn"
+                  onClick={() => handlePass(player.id)}
+                  disabled={player.isEliminated || player.hasPassedThisRound || idx !== currentPlayerIndex}
+                  title={idx === currentPlayerIndex ? "Rendirse" : "Solo puedes rendirte en tu turno"}
+                >
+                  🏳️
+                </button>
+                <button
+                  className="player-action-btn fail-btn"
+                  onClick={() => handleFail(player.id)}
+                  disabled={player.isEliminated || player.hasPassedThisRound}
+                  title="Fallo"
+                >
+                  ❌
+                </button>
               </div>
               {player.isEliminated && <div className="player-status">✗</div>}
               {player.hasPassedThisRound && !player.isEliminated && (

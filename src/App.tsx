@@ -197,8 +197,12 @@ function App() {
       currentPlayerIndex: nextPlayerIndex,
     };
 
-    // Verificar si todos están rendidos o eliminados
-    if (activePlayers.length === 0 || gameState.answeredOptionsInRound.size === gameState.currentQuestion?.opciones.length) {
+    // Verificar si la ronda terminó: todas las opciones respondidas
+    if (gameState.answeredOptionsInRound.size === gameState.currentQuestion?.opciones.length) {
+      newState.status = 'roundEnd' as const;
+    }
+    // Si todos están eliminados/rendidos Y aún quedan opciones, también terminar
+    else if (activePlayers.length === 0 && gameState.answeredOptionsInRound.size < (gameState.currentQuestion?.opciones.length || 0)) {
       newState.status = 'roundEnd' as const;
     }
 
@@ -225,24 +229,22 @@ function App() {
       (p) => !p.isEliminated && !p.hasPassedThisRound
     );
 
-    // Solo avanzar el turno si el jugador eliminado es el jugador actual
+    // Si el jugador eliminado es el jugador actual, avanzar el turno
     let nextPlayerIndex = gameState.currentPlayerIndex;
     
-    if (playerIndex === gameState.currentPlayerIndex) {
+    if (playerIndex === gameState.currentPlayerIndex && activePlayers.length > 0) {
       // Encontrar siguiente jugador activo
-      if (activePlayers.length > 0) {
-        let searchIndex = (gameState.currentPlayerIndex + 1) % updatedPlayers.length;
-        let iterations = 0;
-        
-        while (iterations < updatedPlayers.length) {
-          const nextPlayer = updatedPlayers[searchIndex];
-          if (!nextPlayer.isEliminated && !nextPlayer.hasPassedThisRound) {
-            nextPlayerIndex = searchIndex;
-            break;
-          }
-          searchIndex = (searchIndex + 1) % updatedPlayers.length;
-          iterations++;
+      let searchIndex = (gameState.currentPlayerIndex + 1) % updatedPlayers.length;
+      let iterations = 0;
+      
+      while (iterations < updatedPlayers.length) {
+        const nextPlayer = updatedPlayers[searchIndex];
+        if (!nextPlayer.isEliminated && !nextPlayer.hasPassedThisRound) {
+          nextPlayerIndex = searchIndex;
+          break;
         }
+        searchIndex = (searchIndex + 1) % updatedPlayers.length;
+        iterations++;
       }
     }
 
@@ -252,8 +254,12 @@ function App() {
       currentPlayerIndex: nextPlayerIndex,
     };
 
-    // Verificar si todos están rendidos o eliminados
-    if (activePlayers.length === 0 || gameState.answeredOptionsInRound.size === gameState.currentQuestion?.opciones.length) {
+    // Verificar si la ronda terminó: todas las opciones respondidas
+    if (gameState.answeredOptionsInRound.size === gameState.currentQuestion?.opciones.length) {
+      newState.status = 'roundEnd' as const;
+    }
+    // Si todos están eliminados/rendidos Y aún quedan opciones, también terminar
+    else if (activePlayers.length === 0 && gameState.answeredOptionsInRound.size < (gameState.currentQuestion?.opciones.length || 0)) {
       newState.status = 'roundEnd' as const;
     }
 
